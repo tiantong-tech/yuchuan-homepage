@@ -25,5 +25,11 @@ yarn run test
 yarn run lint
 ```
 
+### Deploy DEMO
+```
+// chmod /scripts/deploy.sh
+yarn deploy
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
