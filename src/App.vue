@@ -23,4 +23,4 @@ export default {
 }
 </script>
 
-<style lang="sass" src="bulma"></style>
+<style lang="sass" src="@/assets/sass/index.sass"></style>

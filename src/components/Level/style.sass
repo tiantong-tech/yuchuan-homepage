@@ -1,0 +1,30 @@
+$level-height: 7rem
+
+.app-level-container
+  min-height: $level-height
+  z-index: 10000
+  background-color: #FFFFFF
+  box-shadow: 0 3px 3px rgba(0,0,0,0.1)
+  .level
+    font-size: 1.25rem
+    height: $level-height
+    .level-right
+      a
+        color: $text
+        &:hover
+          color: $link
+      .level-item
+        min-width: 100px
+        padding: 8px 16px
+        border-radius: 0.25rem
+      .router-link-exact-active
+        background: $link
+        a
+          cursor: default
+          color: $link-invert
+
+.app-logo
+  cursor: pointer
+  .app-logo-image
+    height: 56px
+    width: 112px
