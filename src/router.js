@@ -5,7 +5,7 @@ Vue.use(Router)
 Router.prototype.isMatched = isMatched
 
 export default new Router({
-  mode: 'history',
+  mode: 'hash',
   routes: [
     {
       path: '/',

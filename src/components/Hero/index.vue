@@ -21,7 +21,7 @@ export default {
     },
     height: {
       type: String,
-      default: ''
+      default: '600px'
     }
   },
   computed: {
@@ -32,7 +32,7 @@ export default {
     containerClass () {
       return [
         'container',
-        'has-text-' + this.color
+        this.color && 'has-text-' + this.color
       ]
     },
     appHeroStyle () {
