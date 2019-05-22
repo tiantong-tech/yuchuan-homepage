@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'Image',
+  name: 'VImage',
   props: {
     path: {
       type: String
