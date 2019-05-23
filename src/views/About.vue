@@ -76,7 +76,7 @@
       <h1 class="title is-3">加入我们</h1>
       <div class="is-flex" style="flex-wrap: wrap; justify-content: center">
         <div
-          class="card" style="margin: 1rem; max-width: 480px"
+          class="card" style="margin: 1rem; max-width: 440px"
           v-for="key in 2" :key="key"
         >
           <header class="card-header is-flex">
