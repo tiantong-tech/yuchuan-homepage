@@ -27,7 +27,7 @@ export default {
   computed: {
     imageURL () {
       return !this.image ? false
-        : `url("${require('@/assets/images/' + this.image)}")`
+        : `url("http://img.als-yuchuan.com/${this.image}")`
     },
     containerClass () {
       return [

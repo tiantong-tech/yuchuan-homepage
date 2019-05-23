@@ -12,7 +12,7 @@ export default {
   },
   computed: {
     image () {
-      return require(`@/assets/images/${this.path}`)
+      return `http://img.als-yuchuan.com/${this.path}`
     }
   }
 }
