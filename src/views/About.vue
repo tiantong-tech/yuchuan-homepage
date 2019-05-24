@@ -1,8 +1,9 @@
 <template>
   <div id="about">
-    <div class="has-background-dark" style="height: 320px"></div>
+    <Hero image="about-hero-2.jpeg" style="height: 420px"></Hero>
+    <div style="height: 60px"></div>
     <div>
-      <div class="container is-flex" style="height: 320px; align-items: center">
+      <div class="container is-flex" style="height: 240px; align-items: center; justify-content: center">
         <div class="is-flex-auto">
           <h1 class="title is-4">
             公司介绍
@@ -22,8 +23,6 @@
             </p>
           </h2>
         </div>
-        <div style="min-width: 6rem"></div>
-        <img src="https://bulma.io/images/placeholders/256x256.png">
       </div>
     </div>
 
@@ -47,8 +46,8 @@
           </p>
         </h2>
       </div>
-      <div style="min-width: 6rem"></div>
-      <img src="https://bulma.io/images/placeholders/256x256.png">
+      <div style="min-width: 4rem"></div>
+      <VImage style="width: 192px; height: 192px" path="about-team.jpg"></VImage>
     </div>
 
     <div class="container is-flex" style="height: 400px; align-items: center">
@@ -65,11 +64,12 @@
           <p>以公平公正为企业经营准则；</p>
         </h2>
       </div>
-      <div style="min-width: 6rem"></div>
-      <img class="is-flex-auto" style="height: 320px" src="https://bulma.io/images/placeholders/256x256.png">
+      <div style="min-width: 2rem"></div>
+      <VImage class="is-flex-auto" style="height: 320px;" path="about-brief-1.jpeg"></VImage>
     </div>
+    <div style="height: 40px"></div>
 
-    <div
+    <!-- <div
       class="container is-flex is-flex-column"
       style="padding-top: 3rem; padding-bottom: 5rem; align-items: center"
     >
@@ -140,19 +140,19 @@
           </footer>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
-// import Hero from '@/components/Hero'
-// import VImage from '@/components/Image'
+import Hero from '@/components/Hero'
+import VImage from '@/components/Image'
 
 export default {
   name: 'About',
   components: {
-    // Hero,
-    // VImage
+    Hero,
+    VImage
   }
 }
 </script>

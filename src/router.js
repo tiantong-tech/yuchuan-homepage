@@ -17,11 +17,11 @@ export default new Router({
       name: 'hoister',
       component: () => import('./views/Hoister/index.vue')
     },
-    // {
-    //   path: '/products',
-    //   name: 'products',
-    //   component: () => import('./views/Products/index.vue')
-    // },
+    {
+      path: '/products',
+      name: 'products',
+      component: () => import('./views/Products/index.vue')
+    },
     {
       path: '/contact',
       name: 'contact',

@@ -16,12 +16,21 @@ export default {
     color: {
       type: [String]
     },
-    image: {
-      type: [String]
-    },
     height: {
       type: String,
       default: '600px'
+    },
+    image: {
+      type: [String]
+    },
+    position: {
+      default: 'center'
+    },
+    repeat: {
+      default: 'no-repeat',
+    },
+    attachment: {
+      default: 'scroll'
     }
   },
   computed: {
@@ -42,8 +51,11 @@ export default {
         style.height = this.height
       }
       if (this.imageURL) {
+        style['background-repeat'] = this.repeat
         style['background-image'] = this.imageURL
+        style['background-position'] = this.position
         style['background-size'] = `100% ${this.height}`
+        style['background-attachment'] = this.attachment
       }
 
       return style
