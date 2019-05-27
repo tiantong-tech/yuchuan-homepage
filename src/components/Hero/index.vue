@@ -1,9 +1,9 @@
 <template>
   <section
-    class="app-hero"
+    :class="klass"
     :style="appHeroStyle"
   >
-    <div :class="containerClass">
+    <div class="container">
       <slot></slot>
     </div>
   </section>
@@ -38,10 +38,10 @@ export default {
       return !this.image ? false
         : `url("http://img.als-yuchuan.com/${this.image}")`
     },
-    containerClass () {
+    klass () {
       return [
-        'container',
-        this.color && 'has-text-' + this.color
+        'app-hero',
+        this.color && 'has-background-' + this.color
       ]
     },
     appHeroStyle () {
