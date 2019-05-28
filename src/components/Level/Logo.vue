@@ -4,7 +4,11 @@
     to="/"
     class="app-logo level-item is-flex is-flex-column"
   >
-    <VImage class="app-logo-image" style="width: 96px; height: 48px" path="logo.png"></VImage>
+    <VImage
+      path="common/logo.png"
+      class="app-logo-image"
+      style="width: 96px; height: 48px"
+    ></VImage>
     <span>上海玉串自动化科技有限公司</span>
   </router-link>
 </template>

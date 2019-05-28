@@ -1,11 +1,12 @@
 <template>
   <div id="about">
-    <Hero image="about-hero-2.jpeg" style="height: 420px"></Hero>
-    <div style="height: 60px"></div>
-    <div>
-      <div class="container is-flex" style="height: 240px; align-items: center; justify-content: center">
+    <div style="margin-top: 32px">
+      <div
+        class="container is-flex"
+        style="height: 240px; align-items: center; justify-content: center"
+      >
         <div class="is-flex-auto">
-          <h1 class="title is-4">
+          <h1 class="title is-4 has-text-centered">
             公司介绍
           </h1>
           <h2 class="content">
@@ -25,10 +26,12 @@
         </div>
       </div>
     </div>
-
-    <div class="container is-flex" style="height: 320px; align-items: center">
+    <div
+      class="container is-flex"
+      style="height: 320px; align-items: center"
+    >
       <div class="is-flex-auto">
-        <h1 class="title is-4">
+        <h1 class="title is-4 has-text-centered">
           公司团队
         </h1>
         <h2 class="content">
@@ -46,16 +49,16 @@
           </p>
         </h2>
       </div>
-      <div style="min-width: 4rem"></div>
-      <VImage style="width: 192px; height: 192px" path="about-team.jpg"></VImage>
     </div>
-
-    <div class="container is-flex" style="height: 400px; align-items: center">
+    <div
+      class="container"
+      style="height: 400px"
+    >
       <div>
-        <h1 class="title is-4">
+        <h1 class="title is-4 has-text-centered">
           企业理念
         </h1>
-        <h2 class="content">
+        <h2 class="content has-text-centered">
           <p>以全体员工幸福为企业发展原动力；</p>
           <p>以服务客户，达成客户满意为企业发展目标；</p>
           <p>以与上下游供应商携手共进，共同发展为企业发展方向；</p>
@@ -64,83 +67,7 @@
           <p>以公平公正为企业经营准则；</p>
         </h2>
       </div>
-      <div style="min-width: 2rem"></div>
-      <VImage class="is-flex-auto" style="height: 320px;" path="about-brief-1.jpeg"></VImage>
     </div>
-    <div style="height: 40px"></div>
-
-    <!-- <div
-      class="container is-flex is-flex-column"
-      style="padding-top: 3rem; padding-bottom: 5rem; align-items: center"
-    >
-      <h1 class="title is-3">加入我们</h1>
-      <div class="is-flex" style="flex-wrap: wrap; justify-content: center">
-        <div
-          class="card" style="margin: 1rem; max-width: 440px"
-          v-for="key in 2" :key="key"
-        >
-          <header class="card-header is-flex">
-            <p class="card-header-title is-flex" style="justify-content: center">
-              销售工程师
-            </p>
-          </header>
-          <div class="card-content">
-            <div class="content">
-              <p>职位描述：</p>
-              <p>
-                负责公司产品的销售及推广，负责销售区域内销售活动的策划和执行，完成销售任务；
-                管理维护客户关系以及客户间的长期战略合作计划。
-              </p>
-              <div style="height: 0.5rem"></div>
-              <p>职位要求</p>
-              <ol style="margin-left: 1rem">
-                <li>机电一体化专业及相关专业，精通AutoCAD等相关技术软件和办公软件</li>
-                <li>性格开朗，反应敏捷、表达能力强，具有较强的沟通能力及交际技巧</li>
-                <li>具备一定的市场分析及判断能力，良好的客户服务意识</li>
-                <li>有责任心，能承受较大的工作压力，有强烈的创业梦想</li>
-                <li>精通英语、日语优先</li>
-              </ol>
-            </div>
-          </div>
-          <footer class="card-footer">
-            <span class="card-footer-item">地点：上海、大连</span>
-            <span class="card-footer-item">人数：5人</span>
-          </footer>
-        </div>
-        <div
-          class="card" style="margin: 1rem; max-width: 400px"
-          v-for="key in 3" :key="key"
-        >
-          <header class="card-header is-flex">
-            <p class="card-header-title is-flex" style="justify-content: center">
-              销售工程师
-            </p>
-          </header>
-          <div class="card-content">
-            <div class="content">
-              <p>职位描述：</p>
-              <p>
-                负责公司产品的销售及推广，负责销售区域内销售活动的策划和执行，完成销售任务；
-                管理维护客户关系以及客户间的长期战略合作计划。
-              </p>
-              <div style="height: 0.5rem"></div>
-              <p>职位要求</p>
-              <ol style="margin-left: 1rem">
-                <li>机电一体化专业及相关专业，精通AutoCAD等相关技术软件和办公软件</li>
-                <li>性格开朗，反应敏捷、表达能力强，具有较强的沟通能力及交际技巧</li>
-                <li>具备一定的市场分析及判断能力，良好的客户服务意识</li>
-                <li>有责任心，能承受较大的工作压力，有强烈的创业梦想</li>
-                <li>精通英语、日语优先</li>
-              </ol>
-            </div>
-          </div>
-          <footer class="card-footer">
-            <span class="card-footer-item">地点：上海、大连</span>
-            <span class="card-footer-item">人数：5人</span>
-          </footer>
-        </div>
-      </div>
-    </div> -->
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <div id="products">
     <div class="container is-flex" style="padding-top: 2rem">
-      <nav class="panel" style="width: 200px">
+      <!-- <nav class="panel" style="width: 200px">
         <a
           v-for="(title, key) in titles" :key="key"
           :class="!key && 'is-active'"
@@ -9,7 +9,7 @@
         >
           {{title}}
         </a>
-      </nav>
+      </nav> -->
       <div style="width: 32px"></div>
       <div class="is-flex-auto" style="justify-content: center">
         <div class="has-background-white-ter" style="width: 100%; height: 240px; margin-bottom: 32px"></div>

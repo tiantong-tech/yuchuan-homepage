@@ -1,6 +1,6 @@
 <template>
   <div id="app-index">
-    <Hero color="white" image="index-hero-1.jpg" height="744px">
+    <Hero color="white" image="home/hero-1.jpg" height="744px">
       <div style="width: 560px">
         <h1 class="is-size-2 has-text-white" style="margin-bottom: 1rem">
           智能物流专家
@@ -12,7 +12,7 @@
       </div>
     </Hero>
     <Hero color="white-ter">
-      <div>
+      <div style="width: 600px">
         <h2 class="is-size-3" style="margin-bottom: 1rem">
           垂直物流输送系统
         </h2>
@@ -20,9 +20,17 @@
           垂直物流输送是在指多层建筑结构中，用各种输送设备进行作业，
           信息以及控制的组合实现货物水平和垂直自由搬运的一种自动非载人精密设备。
         </p>
+        <div @click="handleJump" style="margin-top: 1rem; width: 100px">
+          <router-link to="/hoisters" class="is-size-5">
+            了解更多 >
+          </router-link>
+        </div>
       </div>
       <div class="is-flex-auto" style="min-width: 3rem"></div>
-      <VImage style="width: 512px; height: 392px" path="index-hoister-2.jpg"></VImage>
+      <VImage
+        style="width: 512px; height: 392px"
+        path="home/hoister-1.jpg"
+      ></VImage>
     </Hero>
     <Hero color="white">
       <div>
@@ -35,7 +43,7 @@
         </p>
       </div>
       <div class="is-flex-auto" style="min-width: 3rem"></div>
-      <VImage style="width: 880px; height: 392px" path="index-device-1.png"></VImage>
+      <VImage style="width: 880px; height: 392px" path="home/device-1.png"></VImage>
     </Hero>
     <Hero color="white-ter">
       <div>
@@ -49,11 +57,11 @@
         </p>
       </div>
       <div class="is-flex-auto" style="min-width: 3rem"></div>
-      <VImage style="width: 512px; height: 392px" path="index-liku-1.jpg"></VImage>
+      <VImage style="width: 512px; height: 392px" path="home/liku-1.jpg"></VImage>
     </Hero>
     <div
       class="is-flex"
-      style="justify-content: center; align-items: center; margin-top: 48px"
+      style="justify-content: center; align-items: center; margin-top: 48px; margin-bottom: 12px"
     >
       <h2 class="is-size-3">
         WMS & WCS软件系统
@@ -63,7 +71,7 @@
       class="container is-flex"
       style="justify-content: center; align-items: center"
     >
-      <VImage path="index-wms-1.png"></VImage>
+      <VImage path="home/software-1.png"></VImage>
     </div>
     <div style="height: 32px"></div>
   </div>
@@ -80,6 +88,11 @@ export default {
     Hero,
     VImage,
     // VideoButton
+  },
+  methods: {
+    handleJump () {
+      console.log(window.scrollTo(0, 0))
+    }
   }
 }
 </script>

@@ -13,7 +13,7 @@ export default new Router({
       component: () => import('./views/Home/index.vue')
     },
     {
-      path: '/hoister',
+      path: '/hoisters',
       name: 'hoister',
       component: () => import('./views/Hoister/index.vue')
     },
