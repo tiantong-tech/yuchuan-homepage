@@ -10,7 +10,7 @@
       >
         <a
           @click="currentTab = key"
-          class="button is-outlined is-medium"
+          class="button is-medium"
           style="height: 72px"
           :class="key === currentTab && 'is-focused'"
         >
@@ -18,7 +18,6 @@
         </a>
       </p>
     </div>
-
     <component
       v-if="tabs[currentTab].component"
       :is="tabs[currentTab].component"

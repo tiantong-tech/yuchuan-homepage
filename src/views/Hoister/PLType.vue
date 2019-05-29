@@ -1,59 +1,73 @@
 <template>
-  <div>
-    <Hero height="768px">
-      <div style="width: 860px">
+  <div style="padding: 0 0 3rem">
+    <div class="container columns">
+      <div
+        class="column is-flex is-flex-column"
+        style="width: 600px; margin-right: 3rem; justify-content: center"
+      >
         <h1
           class="is-size-3"
-          style="margin-bottom: 16px"
+          style="margin-bottom: 1rem"
         >
-          PL 专用托盘/物流车循环型
+          {{title}}
         </h1>
         <p class="is-size-5">
-          低成本专用托盘循环系统
+          {{subTitle}}
         </p>
-        <div style="height: 128px"></div>
+        <div style="height: 96px"></div>
         <div
-          v-for="(titleGroup, groupKey) in subTitles" :key="groupKey"
+          v-for="(feagureGroup, groupKey) in features" :key="groupKey"
           style="margin-bottom: 48px"
           class="is-flex"
         >
           <div
             class="hoister-subtitle"
             style="margin-bottom: 16px"
-            v-for="(title, titleKey) in titleGroup" :key="titleKey"
+            v-for="(feature, featureKey) in feagureGroup"
+            :key="featureKey"
           >
             <div
               class="has-background-info"
               style="width: 64px; height: 4px; margin-bottom: 12px"
             ></div>
-            <p class="is-size-5" style="margin-bottom: 12px">{{title[0]}}</p>
-            <p class="is-size-6">{{title[1]}}</p>
+            <p class="is-size-5" style="margin-bottom: 12px">{{feature[0]}}</p>
+            <p class="is-size-6">{{feature[1]}}</p>
           </div>
         </div>
       </div>
-      <div class="is-flex-auto"></div>
-      <VImage style="margin-top: 16px" path="hoisters/pltype/animation.gif"></VImage>
-    </Hero>
+      <figure class="column image is-narrow">
+        <VImage
+          path="hoisters/pltype/animation.gif"
+          style="width: 350px; height: 680px"
+        ></VImage>
+      </figure>
+    </div>
     <div
       class="container is-flex is-flex-column"
-      style="justify-content: center; align-items: center; margin-bottom: 80px; margin-top: 80px"
+      style="align-items: center"
     >
-      <h2 class="is-size-3" style="margin-bottom: 16px">主要装置</h2>
+      <h2
+        class="is-size-3"
+        style="margin-bottom: 3rem"
+      >主要装置</h2>
       <VImage path="hoisters/pltype/structure.jpg"></VImage>
     </div>
     <div
       class="container is-flex is-flex-column"
-      style="justify-content: center; align-items: center; margin-bottom: 80px; margin-top: 80px"
+      style="align-items: center"
     >
-      <h2 class="is-size-3" style="margin-bottom: 32px">使用案例</h2>
+      <h2
+        class="is-size-3"
+        style="margin: 3rem 0 3rem"
+      >使用案例</h2>
       <div>
         <VImage
+          style="width: 600px; height: 400px; margin-right: 3rem;"
           path="hoisters/pltype/case-1.jpg"
-          style="width: 480px; height: 400px; margin-right: 32px;"
         ></VImage>
         <VImage
+          style="width: 600px; height: 400px"
           path="hoisters/pltype/case-2.jpg"
-          style="width: 480px; height: 400px"
         ></VImage>
       </div>
     </div>
@@ -61,17 +75,17 @@
 </template>
 
 <script>
-import Hero from '@/components/Hero'
 import VImage from '@/components/Image'
 
 export default {
   name: 'PLTypeHoister',
   components: {
-    Hero,
     VImage
   },
   data: () => ({
-    subTitles: [
+    title: 'PL 专用托盘/物流车循环型',
+    subTitle: '低成本专用托盘循环系统',
+    features: [
       [
         ['可降低运行成本', '一般电梯需要每年法定点检12次，但本机每年仅需4次主点检即可，能够大幅降低运行成本'],
         ['无需建筑确认申请', '采用本机时，无需办理所需电梯建筑确认申请手续']
