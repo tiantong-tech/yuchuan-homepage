@@ -1,10 +1,7 @@
 <template>
   <div id="app">
     <Level></Level>
-    <!-- 路由包装，解决 SPA 页面未加载就直接显示页脚的问题 -->
-    <div style="min-height: calc(100vh - 7rem)">
-      <router-view />
-    </div>
+    <router-view />
     <Footer></Footer>
   </div>
 </template>
