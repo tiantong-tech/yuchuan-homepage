@@ -33,6 +33,11 @@ export default new Router({
       component: () => import('./views/News.vue')
     },
     {
+      path: '/service',
+      name: 'service',
+      component: () => import('./views/Service.vue')
+    },
+    {
       path: '/about',
       name: 'about',
       component: () => import('./views/About.vue')

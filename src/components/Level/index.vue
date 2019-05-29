@@ -37,7 +37,7 @@ export default {
         // { text: '产品中心', route: '/products' },
         { text: '提升机', route: '/hoisters' },
         { text: '客户服务', route: '/service' },
-        { text: '新闻案例', route: '/news' },
+        // { text: '新闻案例', route: '/news' },
         { text: '关于我们', route: '/about' },
         { text: '联系我们', route: '/contact' },
       ]
