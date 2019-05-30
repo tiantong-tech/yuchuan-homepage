@@ -25,7 +25,13 @@ yarn run test
 yarn run lint
 ```
 
-### Deploy DEMO
+### Preview in localhost
+```
+// yarn build
+yarn preview
+```
+
+### Build and Deploy production
 ```
 // chmod /scripts/deploy.sh
 yarn deploy

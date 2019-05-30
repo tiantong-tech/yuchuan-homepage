@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "./scripts/deploy.sh"
+    "deploy": "./scripts/deploy.sh",
+    "preview": "http-server dist"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -22,6 +23,7 @@
     "bulma": "^0.7.5",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "http-server": "^0.11.1",
     "node-sass": "^4.12.0",
     "prerender-spa-plugin": "^3.4.0",
     "sass-loader": "^7.1.0",
