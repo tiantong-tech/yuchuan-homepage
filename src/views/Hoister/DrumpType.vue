@@ -58,14 +58,18 @@
     >
       <h2
         class="is-size-3"
-        style="margin: 2rem 0 3rem"
-      >使用案例</h2>
-      <div>
+        style="margin-bottom: 2rem"
+      >
+        使用案例
+      </h2>
+      <div class="columns">
         <VImage
-          style="width: 600px; height: 400px; margin-right: 3rem;"
+          class="column"
+          style="width: 600px; height: 400px;"
           path="hoisters/drum/case-1.jpeg"
         ></VImage>
         <VImage
+          class="column"
           style="width: 600px; height: 400px"
           path="hoisters/drum/case-2.jpg"
         ></VImage>

@@ -54,18 +54,22 @@
     </div>
     <div
       class="container is-flex is-flex-column"
-      style="align-items: center"
+      style="align-items: center; padding-top: 2rem"
     >
       <h2
         class="is-size-3"
-        style="margin: 3rem 0 3rem"
-      >使用案例</h2>
-      <div>
+        style="margin-bottom: 2rem"
+      >
+        使用案例
+      </h2>
+      <div class="columns">
         <VImage
-          style="width: 600px; height: 400px; margin-right: 3rem;"
+          class="column"
+          style="width: 600px; height: 400px;"
           path="hoisters/pltype/case-1.jpg"
         ></VImage>
         <VImage
+          class="column"
           style="width: 600px; height: 400px"
           path="hoisters/pltype/case-2.jpg"
         ></VImage>
