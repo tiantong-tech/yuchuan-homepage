@@ -38,8 +38,7 @@ export default {
         { text: '提升机', route: '/hoisters' },
         { text: '客户服务', route: '/service' },
         // { text: '新闻案例', route: '/news' },
-        { text: '关于我们', route: '/about' },
-        { text: '联系我们', route: '/contact' },
+        { text: '关于我们', route: '/about' }
       ]
     }
   }

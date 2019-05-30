@@ -11,7 +11,6 @@ module.exports = {
           '/',
           '/news',
           '/about',
-          '/contact',
           '/service',
           '/hoisters'
         ]

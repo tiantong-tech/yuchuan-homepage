@@ -23,11 +23,6 @@ export default new Router({
       component: () => import('./views/Products/index.vue')
     },
     {
-      path: '/contact',
-      name: 'contact',
-      component: () => import('./views/Contact.vue')
-    },
-    {
       path: '/news',
       name: 'news',
       component: () => import('./views/News.vue')
