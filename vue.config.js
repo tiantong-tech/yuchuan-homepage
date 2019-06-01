@@ -5,16 +5,16 @@ module.exports = {
   configureWebpack: config => {
     const plugins = []
     process.env.NODE_ENV === 'production' && plugins.push(
-      new PrerenderSPAPlugin(
-        path.resolve(__dirname, './dist'),
-        [
+      new PrerenderSPAPlugin({
+        staticDir: path.resolve(__dirname, './dist'),
+        routes: [
           '/',
           '/news',
           '/about',
           '/service',
           '/hoisters'
         ]
-      )
+      })
     )
 
     return {
