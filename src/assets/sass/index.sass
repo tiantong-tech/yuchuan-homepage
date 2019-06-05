@@ -1,9 +1,6 @@
 @charset 'utf-8'
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700')
 
-// modules
-@import './helpers.sass'
-
 // bulma
 @import '~bulma/sass/utilities/_all.sass'
 @import '~bulma/sass/base/_all.sass'
@@ -11,14 +8,15 @@
 // bulma modules
 @import '~bulma/sass/form/_all'
 @import '~bulma/sass/grid/columns'
-@import '~bulma/sass/elements/_all'
 @import '~bulma/sass/elements/icon'
 @import '~bulma/sass/elements/image'
-@import '~bulma/sass/elements/title'
 @import '~bulma/sass/elements/button'
 @import '~bulma/sass/elements/content'
 @import '~bulma/sass/elements/container'
 @import '~bulma/sass/components/level'
+
+// modules
+@import './helpers.sass'
 
 // about join us
 @import '~bulma/sass/components/card'
@@ -28,6 +26,7 @@
 
 // bulma improve
 @import './icon.sass'
+@import './container.sass'
 
 // components
 @import '@/components/Level/style.sass'
@@ -35,9 +34,7 @@
 @import '@/views/Home/style.sass'
 @import '@/views/Hoister/style.sass'
 @import '@/views/Products/style.sass'
-
-html
-  overflow-x: auto
+@import '@/views/prices/style.sass'
 
 #app
   min-width: 960px

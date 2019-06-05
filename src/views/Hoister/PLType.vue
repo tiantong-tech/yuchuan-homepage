@@ -1,46 +1,48 @@
 <template>
   <div style="padding: 0 0 3rem">
-    <div class="container columns">
-      <div
-        class="column is-flex is-flex-column"
-        style="width: 600px; margin-right: 3rem; justify-content: center"
-      >
-        <h1
-          class="is-size-3"
-          style="margin-bottom: 1rem"
-        >
-          {{title}}
-        </h1>
-        <p class="is-size-5">
-          {{subTitle}}
-        </p>
-        <div style="height: 96px"></div>
+    <div class="container">
+      <div class="columns">
         <div
-          v-for="(feagureGroup, groupKey) in features" :key="groupKey"
-          style="margin-bottom: 48px"
-          class="is-flex"
+          class="column is-flex is-flex-column"
+          style="width: 600px; margin-right: 3rem; justify-content: center"
         >
+          <h1
+            class="is-size-3"
+            style="margin-bottom: 1rem"
+          >
+            {{title}}
+          </h1>
+          <p class="is-size-5">
+            {{subTitle}}
+          </p>
+          <div style="height: 96px"></div>
           <div
-            class="hoister-subtitle"
-            style="margin-bottom: 16px"
-            v-for="(feature, featureKey) in feagureGroup"
-            :key="featureKey"
+            v-for="(feagureGroup, groupKey) in features" :key="groupKey"
+            style="margin-bottom: 48px"
+            class="is-flex"
           >
             <div
-              class="has-background-info"
-              style="width: 64px; height: 4px; margin-bottom: 12px"
-            ></div>
-            <p class="is-size-5" style="margin-bottom: 12px">{{feature[0]}}</p>
-            <p class="is-size-6">{{feature[1]}}</p>
+              class="hoister-subtitle"
+              style="margin-bottom: 16px"
+              v-for="(feature, featureKey) in feagureGroup"
+              :key="featureKey"
+            >
+              <div
+                class="has-background-info"
+                style="width: 64px; height: 4px; margin-bottom: 12px"
+              ></div>
+              <p class="is-size-5" style="margin-bottom: 12px">{{feature[0]}}</p>
+              <p class="is-size-6">{{feature[1]}}</p>
+            </div>
           </div>
         </div>
+        <figure class="column image is-narrow">
+          <VImage
+            path="hoisters/pltype/animation.gif"
+            style="width: 350px; height: 680px"
+          ></VImage>
+        </figure>
       </div>
-      <figure class="column image is-narrow">
-        <VImage
-          path="hoisters/pltype/animation.gif"
-          style="width: 350px; height: 680px"
-        ></VImage>
-      </figure>
     </div>
     <div
       class="container is-flex is-flex-column"

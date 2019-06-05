@@ -1,42 +1,44 @@
 <template>
   <div id="service">
-    <div
-      class="container columns"
-      style="align-items: center; padding: 4rem 0 4rem"
-    >
-      <div class="column">
-        <h1 class="is-size-3">
-          全天候全身心 极致售后服务
-        </h1>
-        <div style="height: 2rem"></div>
-        <h2 class="is-size-4">
-          创世界一流的服务和关怀
-        </h2>
-        <div style="height: 0.5rem"></div>
-        <p>
-          面对超过数万用户的真诚信赖，实践“客户至上，诚信为本”的 服务理念，
-          为客户提供“主动式关怀”，将“蓝色关爱”服务品 牌化，系统化、标准化，
-          为客户提供售前、售中、售后一站式整 体服务解决方案。
-        </p>
-        <div style="height: 2rem"></div>
-        <h2
-          class="is-size-4"
-          style="margin-bottom: 0.5rem"
-        >
-          “蓝色关爱”服务万里行
-        </h2>
-        <p>
-          我们不惧风雨日夜兼程，始终坚持热忱知心 用过硬的服务团队、
-          携现金的服务设备 周全满足您对快乐、可靠的售后服务需求
-        </p>
+    <section class="container">
+      <div
+        class="columns is-vcentered"
+        style="padding: 3rem 0 3rem;"
+      >
+        <div class="column">
+          <h1 class="is-size-3">
+            全天候全身心 极致售后服务
+          </h1>
+          <div style="height: 2rem"></div>
+          <h2 class="is-size-4">
+            创世界一流的服务和关怀
+          </h2>
+          <div style="height: 0.5rem"></div>
+          <p>
+            面对超过数万用户的真诚信赖，实践“客户至上，诚信为本”的 服务理念，
+            为客户提供“主动式关怀”，将“蓝色关爱”服务品 牌化，系统化、标准化，
+            为客户提供售前、售中、售后一站式整 体服务解决方案。
+          </p>
+          <div style="height: 2rem"></div>
+          <h2
+            class="is-size-4"
+            style="margin-bottom: 0.5rem"
+          >
+            “蓝色关爱”服务万里行
+          </h2>
+          <p>
+            我们不惧风雨日夜兼程，始终坚持热忱知心 用过硬的服务团队、
+            携现金的服务设备 周全满足您对快乐、可靠的售后服务需求
+          </p>
+        </div>
+        <figure class="image column">
+          <VImage
+            path="service/frame.png"
+            style="min-width: 360px; height: 392px"
+          ></VImage>
+        </figure>
       </div>
-      <figure class="image column">
-        <VImage
-          path="service/frame.png"
-          style="min-width: 360px; height: 392px"
-        ></VImage>
-      </figure>
-    </div>
+    </section>
     <section class="has-background-white-ter">
       <div
         class="container"
@@ -57,7 +59,7 @@
     >
       <div
         class="column is-flex is-flex-column"
-        style="justify-content: center; margin-right: 3rem"
+        style="margin-right: 3rem; justify-content: center"
       >
         <h1
           class="is-size-2"

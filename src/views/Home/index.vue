@@ -5,7 +5,7 @@
       height="744px"
       image="home/hero-1.jpg"
     >
-      <div style="width: 560px; padding-left: 0.75rem">
+      <div style="width: 560px">
         <h1 class="is-size-2 has-text-white" style="margin-bottom: 1rem">
           智能物流专家
         </h1>
@@ -21,7 +21,7 @@
     <Hero color="white-ter">
       <div
         class="is-flex-auto"
-        style="margin-right: 3rem; padding-left: 0.75rem"
+        style="margin-right: 3rem"
       >
         <h2 class="is-size-3" style="margin-bottom: 1rem">
           垂直物流输送系统
@@ -46,7 +46,7 @@
     <Hero color="white">
       <div
         class="is-flex-auto"
-        style="margin-right: 3rem; padding-left: 0.75rem"
+        style="margin-right: 3rem"
       >
         <h2 class="is-size-3" style="margin-bottom: 1rem">
           物流设备
@@ -66,7 +66,7 @@
     <Hero color="white-ter">
       <div
         class="is-flex-auto"
-        style="margin-right: 3rem; padding-left: 0.75rem"
+        style="margin-right: 3rem"
       >
         <h2 class="is-size-3" style="margin-bottom: 1rem">
           自动化立体仓库系统
