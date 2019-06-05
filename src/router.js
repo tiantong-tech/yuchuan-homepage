@@ -36,6 +36,11 @@ export default new Router({
       path: '/about',
       name: 'about',
       component: () => import('./views/About.vue')
+    },
+    {
+      path: '/prices/hoister',
+      name: 'hoister price',
+      component: () => import('./views/prices/Hoister.vue')
     }
   ]
 })
