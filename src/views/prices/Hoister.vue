@@ -47,10 +47,10 @@
         <Radio :value="true"></Radio>
         <label>正面装卸</label>
 
-        <Radio style="margin-left: 3.5rem"></Radio>
+        <Radio style="margin-left: 2rem"></Radio>
         <label>正面装卸</label>
 
-        <Radio style="margin-left: 3.5rem"></Radio>
+        <Radio style="margin-left: 2rem"></Radio>
         <label>正面 + 侧面</label>
       </section>
 
@@ -92,19 +92,19 @@
       </section>
 
       <section class="is-flex is-vcentered">
-        <Checkbox :value="true"></Checkbox>
+        <Radio :value="true"></Radio>
         <label>木质</label>
 
         <span style="width: 2.5rem"></span>
-        <Checkbox></Checkbox>
+        <Radio></Radio>
         <label>塑料</label>
 
         <span style="width: 2.5rem"></span>
-        <Checkbox></Checkbox>
+        <Radio></Radio>
         <label>两方进叉</label>
 
         <span style="width: 2.5rem"></span>
-        <Checkbox></Checkbox>
+        <Radio></Radio>
         <label>四方进叉</label>
       </section>
 
@@ -179,53 +179,64 @@
       <section class="is-flex is-vcentered">
         <p style="margin-right: 1rem">升降速度：</p>
 
-        <Checkbox :value="true"></Checkbox>
+        <Radio :value="true"></Radio>
         <label>30m/min</label>
 
         <span style="width: 2rem"></span>
-        <Checkbox></Checkbox>
+        <Radio></Radio>
         <label>40m/min</label>
 
         <span style="width: 2rem"></span>
-        <Checkbox></Checkbox>
+        <Radio></Radio>
         <label>50m/min</label>
 
         <span style="width: 2rem"></span>
-        <Checkbox></Checkbox>
+        <Radio></Radio>
         <label>60m/min</label>
 
         <span style="width: 2rem"></span>
-        <Checkbox></Checkbox>
+        <Radio></Radio>
         <label>依设计</label>
       </section>
 
       <section class="is-flex is-vcentered">
         <p style="margin-right: 1rem">水平速度：</p>
 
-        <Checkbox :value="true"></Checkbox>
+        <Radio :value="true"></Radio>
         <label>13m/min</label>
 
         <span style="width: 2rem"></span>
-        <Checkbox></Checkbox>
+        <Radio></Radio>
         <label>24m/min</label>
 
         <span style="width: 2rem"></span>
-        <Checkbox></Checkbox>
+        <Radio></Radio>
         <label>依设计</label>
       </section>
 
       <h2>搬送路径</h2>
-      <section class="field has-addons">
+      <section
+        v-for="(routes, key) in transportRoutes" :key="key"
+        class="field has-addons"
+      >
         <p
-          v-for="type in ['Z', 'C', 'CC', 'CZ', 'ZC', 'F', 'E', 'ZE', 'FE', 'EE', 'L', 'LF', 'LL']"
-          :key="type"
+          v-for="route in routes" :key="route"
           class="control"
         >
           <a
             class="button"
-            :class="type === 'Z' && 'is-focused'"
+            style="width: 120px; height: 140px"
+            :class="route === 'Z' && 'is-focused'"
           >
-            <span>{{type}}型</span>
+            <div>
+              <span>
+                {{route}}型
+              </span>
+              <div style="0.25rem"></div>
+              <div style="width: 100px; height: 100px;">
+                <HoisterTypeSVG :type="route"></HoisterTypeSVG>
+              </div>
+            </div>
           </a>
         </p>
       </section>
@@ -237,7 +248,6 @@
           <input :key="floor" type="text" class="input" style="margin-right: 1.5rem; width: 80px">
         </template>
 
-        <span style="width: 1.5rem"></span>
         <label>顶部</label>
         <input type="text" class="input" style="width: 80px">
         <label>mm</label>
@@ -338,8 +348,20 @@
       <span style="width: 2rem"></span>
 
       <h2>留言</h2>
-      <section style="max-width: 1000px">
+      <section style="max-width: 500px">
         <textarea cols="20" rows="5" class="textarea"></textarea>
+      </section>
+
+      <section class="is-flex" style="width: 500px">
+        <div class="field is-flex-auto" style="width: 200px">
+          <h2 class="is-subtitle">联系电话</h2>
+          <input type="text" class="input">
+        </div>
+        <span style="width: 1rem"></span>
+        <div class="field" style="width: 200px">
+          <h2 class="is-subtitle">称呼</h2>
+          <input type="text" class="input">
+        </div>
       </section>
       <a class="button is-link" style="width: 120px">提交</a>
     </div>
@@ -347,7 +369,20 @@
 </template>
 
 <script>
+import HoisterTypeSVG from './svg/TransplotType.vue'
+
 export default {
-  name: 'HoisterPrice'
+  name: 'HoisterPrice',
+  components: {
+    HoisterTypeSVG
+  },
+  data () {
+    return {
+      transportRoutes: [
+        ['Z', 'C', 'CC', 'CZ', 'ZC', 'F', 'E'],
+        ['ZE', 'FE', 'EE', 'L', 'LF', 'LL']
+      ]
+    }
+  }
 }
 </script>
