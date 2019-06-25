@@ -8,7 +8,11 @@
         </div>
         <!-- Right side -->
         <div class="level-right">
-          <router-link tag="p" class="level-item" to="/">
+          <router-link
+            tag="p" class="level-item" to="/"
+            active-class="none"
+            exact-active-class="router-link-active"
+          >
             <a>首页</a>
           </router-link>
           <ProductItems></ProductItems>
