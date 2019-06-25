@@ -2,6 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import components from './boot/components'
+import axios from '@/providers/axios'
+
+axios.get('/api')
+  .then(response => console.log(response.data))
 
 Vue.config.productionTip = false
 
