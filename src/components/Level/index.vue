@@ -8,13 +8,18 @@
         </div>
         <!-- Right side -->
         <div class="level-right">
-          <router-link
-            tag="p"
-            class="level-item"
-            v-for="(subTitle, key) in subTitles" :key="key"
-            :to="subTitle.route"
-          >
-            <a>{{subTitle.text}}</a>
+          <router-link tag="p" class="level-item" to="/">
+            <a>首页</a>
+          </router-link>
+          <ProductItems></ProductItems>
+          <router-link tag="p" class="level-item" to="/service">
+            <a>客户服务</a>
+          </router-link>
+          <router-link tag="p" class="level-item" to="/about">
+            <a>关于我们</a>
+          </router-link>
+          <router-link tag="p" class="level-item" to="/prices/hoister">
+            <a>联系我们</a>
           </router-link>
         </div>
       </nav>
@@ -24,11 +29,13 @@
 
 <script>
 import Logo from './Logo'
+import ProductItems from './ProductItems'
 
 export default {
   name: 'Level',
   components: {
-    Logo
+    Logo,
+    ProductItems
   },
   data () {
     return {

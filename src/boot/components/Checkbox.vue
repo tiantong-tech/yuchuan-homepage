@@ -13,7 +13,7 @@
         :style="iconStyle"
       />
     </span>
-    <slot></slot>
+    <slot class="is-unselectable"></slot>
   </label>
 </template>
 

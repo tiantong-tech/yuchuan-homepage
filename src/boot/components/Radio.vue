@@ -1,5 +1,5 @@
 <template>
-  <span>
+  <span @click="handleClick">
     <span
       :class="spanClass"
       style="cursor: pointer"
@@ -10,7 +10,7 @@
         :style="iconStyle"
       ></i>
     </span>
-    <span>
+    <span style="cursor: pointer">
       <slot></slot>
     </span>
   </span>
@@ -56,7 +56,6 @@ export default {
       return result
     }
   },
-
   methods: {
     handleClick () {
       if (!this.disabled) {

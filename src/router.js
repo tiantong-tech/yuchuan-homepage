@@ -13,7 +13,7 @@ export default new Router({
       component: () => import('./views/Home/index.vue')
     },
     {
-      path: '/hoisters',
+      path: '/products/hoisters',
       name: 'hoister',
       component: () => import('./views/Hoister/index.vue')
     },
@@ -40,7 +40,14 @@ export default new Router({
     {
       path: '/prices/hoister',
       name: 'hoister price',
-      component: () => import('./views/prices/Hoister.vue')
+      component: () => import('./views/prices/Hoister/index.vue'),
+      children: [
+        {
+          path: 'created',
+          name: 'hoister created',
+          component: () => import('./views/prices/Hoister/Created.vue')
+        }
+      ]
     }
   ]
 })

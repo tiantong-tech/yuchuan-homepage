@@ -12,8 +12,9 @@ module.exports = {
           '/news',
           '/about',
           '/service',
-          '/hoisters',
           '/prices/hoister',
+          '/prices/hoister/created',
+          '/products/hoisters',
         ]
       })
     )

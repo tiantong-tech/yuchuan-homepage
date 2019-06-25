@@ -31,7 +31,7 @@
           信息以及控制的组合实现货物水平和垂直自由搬运的一种自动非载人精密设备。
         </p>
         <div @click="handleJump" style="margin-top: 1rem; width: 100px">
-          <router-link to="/hoisters" class="is-size-5">
+          <router-link to="/products/hoisters" class="is-size-5">
             了解更多 >
           </router-link>
         </div>

@@ -1,5 +1,8 @@
 $level-height: 7rem
 
+.app-body
+  height: calc(100% - 7rem)
+
 .app-level-container
   min-height: $level-height
   z-index: 10000
@@ -9,6 +12,7 @@ $level-height: 7rem
     font-size: 1.125rem
     height: $level-height
     .level-right
+      padding-right: 0
       a
         color: $text
         &:hover
@@ -17,11 +21,24 @@ $level-height: 7rem
         min-width: 80px
         padding: 8px 16px
         border-bottom: 2px solid transparent
-      .router-link-exact-active
-        border-color: $link
-        a
-          color: $link
-          cursor: default
+        &.is-active,
+        &.router-link-exact-active
+          border-color: $link
+          a
+            color: $link
+            cursor: default
+        &:last-child
+          padding-right: 0
+    .level-dropdown
+      cursor: pointer
+      position: relative
+      .dropdown-content
+        width: 160px
+        margin-top: 12px
+        .dropdown-item
+          font-size: 1.125rem
+          &:hover
+            color: $link
 
 .app-logo
   cursor: pointer
