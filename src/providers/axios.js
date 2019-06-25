@@ -13,6 +13,7 @@ function beforeResponse (response) {
 }
 
 function beforeError (error) {
+  console.log({ error })
 
   throw error
 }
