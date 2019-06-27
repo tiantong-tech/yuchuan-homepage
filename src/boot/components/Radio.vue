@@ -10,7 +10,7 @@
         :style="iconStyle"
       ></i>
     </span>
-    <span style="cursor: pointer">
+    <span class="is-unselectable" style="cursor: pointer">
       <slot></slot>
     </span>
   </span>
