@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: 'SelectorButtons',
+  name: 'CustomerSelectableButtons',
   props: {
     value: String,
     options: Array

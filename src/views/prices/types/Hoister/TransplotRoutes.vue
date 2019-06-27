@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import TransplotRouteType from './svg/TransplotRouteType.vue'
+import TransplotRouteType from './TransplotRouteType.vue'
 
 const routeGroups = [
   ['Z型', 'C型', 'CC型', 'CZ型', 'ZC型', 'F型', 'E型'],
