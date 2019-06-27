@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import App from './App.vue'
+import App from './views/App/index.vue'
 import router from './router'
 import components from './boot/components'
 import axios from '@/providers/axios'

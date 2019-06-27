@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import Level from '@/components/Level'
-import Footer from '@/components/AppFooter'
+import Level from './Level'
+import Footer from './Footer'
 
 export default {
   name: 'App',
