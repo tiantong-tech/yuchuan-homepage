@@ -4,7 +4,7 @@
       :value="value"
       @click="$emit('input', true)"
     >
-      {{options[1]}}
+      {{options[0]}}
     </Radio>
     <span style="margin: 0 0.5rem 0 0.5rem">/</span>
     <Radio

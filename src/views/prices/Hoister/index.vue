@@ -3,7 +3,7 @@
     <router-view></router-view>
     <div style="height: 2rem"></div>
     <div class="container">
-      <HoisterData ref="hoister"></HoisterData>
+      <HoisterParams ref="hoister"></HoisterParams>
       <h2>留言</h2>
       <section style="max-width: 500px">
         <textarea
@@ -59,7 +59,7 @@
 
 <script>
 import axios from '@/providers/axios'
-import HoisterData from '../types/Hoister/index.vue'
+import HoisterParams from '@/share/product-params/Hoister/index.vue'
 
 const getData = () => ({
   params: {
@@ -77,7 +77,7 @@ export default {
   name: 'HoisterPrice',
   data: getData,
   components: {
-    HoisterData
+    HoisterParams
   },
   methods: {
     handleSubmit () {
