@@ -4,13 +4,6 @@
     <div style="height: 2rem"></div>
     <div class="container">
       <HoisterParams ref="hoister"></HoisterParams>
-      <h2>留言</h2>
-      <section style="max-width: 500px">
-        <textarea
-          v-model="params.message"
-          cols="20" rows="5" class="textarea"
-        ></textarea>
-      </section>
 
       <section class="is-flex" style="width: 500px">
         <div class="is-flex-auto" style="width: 200px">
@@ -47,6 +40,25 @@
           >
         </div>
       </section>
+
+      <section class="is-flex" style="width: 500px">
+        <div class="is-flex-auto" style="width: 200px">
+          <h2 class="is-subtitle">邮箱</h2>
+          <input
+            v-model="params.email"
+            type="text" class="input"
+          >
+        </div>
+      </section>
+
+      <h2>留言</h2>
+      <section style="max-width: 500px">
+        <textarea
+          v-model="params.message"
+          cols="20" rows="5" class="textarea"
+        ></textarea>
+      </section>
+
       <a
         @click="handleSubmit"
         class="button is-link"
