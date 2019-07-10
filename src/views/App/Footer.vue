@@ -14,9 +14,3 @@ export default {
   name: 'HomeFooter'
 }
 </script>
-
-<style lang="sass">
-.app-footer
-  padding-top: 4rem
-  padding-bottom: 4rem
-</style>

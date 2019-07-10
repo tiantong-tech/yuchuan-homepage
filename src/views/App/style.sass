@@ -1,7 +1,7 @@
 $level-height: 7rem
 
 .app-body
-  height: calc(100% - 7rem)
+  min-height: calc(100vh - #{$level-height})
 
 .app-level-container
   min-height: $level-height
@@ -43,3 +43,7 @@ $level-height: 7rem
   .app-logo-image
     height: 56px
     width: 112px
+
+.app-footer
+  padding-top: 4rem
+  padding-bottom: 4rem
