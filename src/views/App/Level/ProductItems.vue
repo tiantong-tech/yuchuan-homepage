@@ -10,13 +10,16 @@
       class="dropdown-menu"
       :class="isHovered && 'is-active'"
     >
-      <div class="dropdown-content">
+      <div
+        class="dropdown-content"
+        style="width: 200px"
+      >
         <div @click="handleItemClick">
         <router-link
           tag="p"
           class="dropdown-item"
           to="/products/hoisters"
-        >提升机</router-link>
+        >垂直物流输送系统</router-link>
         </div>
       </div>
     </div>
