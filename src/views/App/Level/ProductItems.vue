@@ -20,6 +20,11 @@
           class="dropdown-item"
           to="/products/hoisters"
         >垂直物流输送系统</router-link>
+        <router-link
+          tag="p"
+          class="dropdown-item"
+          to="/products/rgv"
+        >有轨穿梭车</router-link>
         </div>
       </div>
     </div>

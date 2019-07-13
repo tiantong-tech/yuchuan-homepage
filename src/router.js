@@ -18,6 +18,11 @@ export default new Router({
       component: () => import('./views/Hoister/index.vue')
     },
     {
+      path: '/products/rgv',
+      name: 'rgv',
+      component: () => import('./views/Products/RGV/index.vue')
+    },
+    {
       path: '/products',
       name: 'products',
       component: () => import('./views/Products/index.vue')
