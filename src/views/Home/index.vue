@@ -57,7 +57,7 @@
         </p>
         <div @click="handleJump" style="margin-top: 1rem; width: 100px">
           <router-link to="/products/rgv" class="is-size-5">
-            物流设备 >
+            了解更多 >
           </router-link>
         </div>
       </div>
