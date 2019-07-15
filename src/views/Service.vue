@@ -14,7 +14,7 @@
             创世界一流的服务和关怀
           </h2>
           <div style="height: 0.5rem"></div>
-          <p>
+          <p class="is-size-5">
             面对超过数万用户的真诚信赖，实践“客户至上，诚信为本”的 服务理念，
             为客户提供“主动式关怀”，将“蓝色关爱”服务品 牌化，系统化、标准化，
             为客户提供售前、售中、售后一站式整 体服务解决方案。
@@ -26,7 +26,7 @@
           >
             “蓝色关爱”服务万里行
           </h2>
-          <p>
+          <p class="is-size-5">
             我们不惧风雨日夜兼程，始终坚持热忱知心 用过硬的服务团队、
             携现金的服务设备 周全满足您对快乐、可靠的售后服务需求
           </p>
@@ -45,7 +45,7 @@
         style="padding-top: 5rem; padding-bottom: 5rem"
       >
         <h1
-          class="is-size-2 has-text-centered"
+          class="is-size-3 has-text-centered"
           style="margin-bottom: 1rem"
         >服务流程</h1>
         <figure class="image">
@@ -61,19 +61,15 @@
         class="column is-flex is-flex-column"
         style="margin-right: 3rem; justify-content: center"
       >
-        <h1
-          class="is-size-2"
-          style="margin-bottom: 1rem"
-        >
+        <h1 class="is-size-2">
           解决方案
         </h1>
-        <h2
-          class="is-size-4"
-          style="margin-bottom: 1rem"
-        >
+        <div style="height: 1rem"></div>
+        <h2 class="is-size-4">
           我们提供快速有力的解决方案
         </h2>
-        <p>
+        <div style="height: 1rem"></div>
+        <p class="is-size-5">
           各类企业虽然在长期发展历程中已经积累了丰富的实践经验，
           但由于信息反馈不及时、不精确、不全面等问题导致了大量浪费与运作成本的居高不下。
           智慧物流解决方案可以通过各种自动化设备和ERP/WMS/WCS等帮助企业实现数据交换、

@@ -51,7 +51,7 @@
         </p>
       </div>
     </div> -->
-    <div style="padding: 3rem 0 3rem">
+    <div style="padding: 3rem 0 0">
       <div class="container">
         <h1
           class="is-size-3 has-text-centered"
@@ -77,60 +77,42 @@
             <span>{{item.text}}</span>
           </div>
         </div>
-
-        <div style="height: 1 rem"></div>
-        <p class="is-size-5 has-text-centered">
-          我们以真诚、责任为合作前提，携手客户分析物流流程中的课题，
-          与客户共同制定自动化物流系统解决方案，并用3D演示方式直观、
-          科学的展示系统投入运行的实际效果，从而降低系统投入成本，规避投资风险。
-        </p>
       </div>
     </div>
-    <div style="margin-bottom: 2rem">
-      <h2 class="is-size-5">
-      </h2>
-    </div>
-
-    <div
-      class="has-text-centered"
-    >
+    <div class="company has-background-white-ter">
+      <div style="height: 2rem"></div>
       <h1
         class="is-size-3"
         style="margin-bottom: 2rem"
       >
         公司地址
       </h1>
-      <div
-        class="company has-background-white-ter"
-        style="padding-top: 2rem"
-      >
-        <h1 class="is-size-4">
-          上海总部
-        </h1>
-        <p class="is-size-5">电话：+86-21-6105 7311</p>
-        <p class="is-size-5">邮件：Wang@als-yuchuan.com</p>
-        <p class="is-size-5">网站：www.als-yuchuan.com</p>
-        <p class="is-size-5">地址：上海市奉贤区解放东路1018弄1619室</p>
-      </div>
-      <div class="company has-background-white-ter">
-        <h1 class="is-size-4">
-          珠海分公司
-        </h1>
-        <p class="is-size-5">电话：+86-185 7826 8613</p>
-        <p class="is-size-5">邮件：michellezhang@als-yuchuan.com</p>
-        <p class="is-size-5">网站：www.als-yuchuan.com</p>
-        <p class="is-size-5">地址：广东省珠海市斗门区白藤七路德昌盛景</p>
-      </div>
-      <div class="company has-background-white-ter">
-        <h1 class="is-size-4">
-          大连分公司
-        </h1>
-        <p class="is-size-5">电话：+86-411-8870 8679</p>
-        <p class="is-size-5">邮件：michellezhang@als-yuchuan.com</p>
-        <p class="is-size-5">网站：www.als-yuchuan.com</p>
-        <p class="is-size-5">地址：辽宁省大连市经济开发区万达广场7号楼 2217室</p>
-        <div style="height: 2rem"></div>
-      </div>
+      <h1 class="is-size-4">
+        上海总部
+      </h1>
+      <p class="is-size-5">电话：+86-21-6105 7311</p>
+      <p class="is-size-5">邮件：Wang@als-yuchuan.com</p>
+      <p class="is-size-5">网站：www.als-yuchuan.com</p>
+      <p class="is-size-5">地址：上海市奉贤区解放东路1018弄1619室</p>
+    </div>
+    <div class="company has-background-white-ter">
+      <h1 class="is-size-4">
+        珠海分公司
+      </h1>
+      <p class="is-size-5">电话：+86-185 7826 8613</p>
+      <p class="is-size-5">邮件：michellezhang@als-yuchuan.com</p>
+      <p class="is-size-5">网站：www.als-yuchuan.com</p>
+      <p class="is-size-5">地址：广东省珠海市斗门区白藤七路德昌盛景</p>
+    </div>
+    <div class="company has-background-white-ter">
+      <h1 class="is-size-4">
+        大连分公司
+      </h1>
+      <p class="is-size-5">电话：+86-411-8870 8679</p>
+      <p class="is-size-5">邮件：michellezhang@als-yuchuan.com</p>
+      <p class="is-size-5">网站：www.als-yuchuan.com</p>
+      <p class="is-size-5">地址：辽宁省大连市经济开发区万达广场7号楼 2217室</p>
+      <div style="height: 2rem"></div>
     </div>
   </div>
 </template>
