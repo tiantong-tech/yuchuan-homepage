@@ -55,6 +55,11 @@
           自动化物流设备是在无人干预的情况下，根据已经设定的指令或者程序，
           自动完成工作流程的任务，在各行业的生产制造、物流运输都起着重要作用。
         </p>
+        <div @click="handleJump" style="margin-top: 1rem; width: 100px">
+          <router-link to="/products/rgv" class="is-size-5">
+            物流设备 >
+          </router-link>
+        </div>
       </div>
       <figure class="image">
         <VImage
