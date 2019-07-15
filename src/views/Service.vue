@@ -3,10 +3,10 @@
     <section class="container">
       <div
         class="columns is-vcentered"
-        style="padding: 5rem 0 5rem;"
+        style="padding: 8rem 0 8rem;"
       >
         <div class="column">
-          <h1 class="is-size-3">
+          <h1 class="is-size-2">
             全天候全身心 极致售后服务
           </h1>
           <div style="height: 2rem"></div>
@@ -44,10 +44,8 @@
         class="container"
         style="padding-top: 5rem; padding-bottom: 5rem"
       >
-        <h1
-          class="is-size-3 has-text-centered"
-          style="margin-bottom: 1rem"
-        >服务流程</h1>
+        <h1 class="is-size-2 has-text-centered">服务流程</h1>
+        <div style="height: 3rem"></div>
         <figure class="image">
           <VImage path="service/processes.jpg"></VImage>
         </figure>
@@ -55,7 +53,7 @@
     </section>
     <section
       class="container columns"
-      style="padding-top: 5rem; padding-bottom: 5rem"
+      style="padding-top: 8rem; padding-bottom: 8rem"
     >
       <div
         class="column is-flex is-flex-column"

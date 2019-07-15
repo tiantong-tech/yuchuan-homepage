@@ -1,12 +1,9 @@
 <template>
-  <div
-    id="about"
-    style="padding-top: 2rem"
-  >
+  <div id="about">
     <section class="container">
       <div
         class="columns is-vcentered"
-        style="padding: 3rem 0 3rem;"
+        style="padding: 5rem 0 3rem;"
       >
         <figure class="image column">
           <VImage
