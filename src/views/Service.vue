@@ -3,7 +3,7 @@
     <section class="container">
       <div
         class="columns is-vcentered"
-        style="padding: 3rem 0 3rem;"
+        style="padding: 5rem 0 5rem;"
       >
         <div class="column">
           <h1 class="is-size-3">
@@ -42,7 +42,7 @@
     <section class="has-background-white-ter">
       <div
         class="container"
-        style="padding-top: 4rem; padding-bottom: 4rem"
+        style="padding-top: 5rem; padding-bottom: 5rem"
       >
         <h1
           class="is-size-2 has-text-centered"
@@ -55,7 +55,7 @@
     </section>
     <section
       class="container columns"
-      style="padding-top: 3rem; padding-bottom: 3rem"
+      style="padding-top: 5rem; padding-bottom: 5rem"
     >
       <div
         class="column is-flex is-flex-column"
