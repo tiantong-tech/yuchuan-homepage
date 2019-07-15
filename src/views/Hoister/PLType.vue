@@ -55,26 +55,20 @@
       <VImage path="hoisters/pltype/structure.jpg"></VImage>
     </div>
     <div
-      class="container is-flex is-flex-column"
-      style="align-items: center; padding-top: 2rem"
+      class="container is-flex is-flex-column is-vcentered"
+      style="padding-top: 4rem"
     >
-      <h2
-        class="is-size-3"
-        style="margin-bottom: 2rem"
-      >
+      <h2 class="is-size-3">
         使用案例
       </h2>
-      <div class="columns">
-        <VImage
-          class="column"
-          style="width: 600px; height: 400px;"
-          path="hoisters/pltype/case-1.jpg"
-        ></VImage>
-        <VImage
-          class="column"
-          style="width: 600px; height: 400px"
-          path="hoisters/pltype/case-2.jpg"
-        ></VImage>
+      <div style="height: 3rem"></div>
+      <div class="columns" style="width: 100%">
+        <figure class="column image">
+          <VImage path="hoisters/pltype/case-1.jpg"></VImage>
+        </figure>
+        <figure class="column image">
+          <VImage path="hoisters/pltype/case-2.jpg"></VImage>
+        </figure>
       </div>
     </div>
   </div>

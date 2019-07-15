@@ -64,17 +64,19 @@
       >
         使用案例
       </h2>
-      <div class="columns">
-        <VImage
-          class="column"
-          style="width: 600px; height: 400px;"
-          path="hoisters/drum/case-1.jpeg"
-        ></VImage>
-        <VImage
-          class="column"
-          style="width: 600px; height: 400px"
-          path="hoisters/drum/case-2.jpg"
-        ></VImage>
+      <div class="columns" style="width: 100%">
+        <div class="column">
+          <VImage
+            path="hoisters/drum/case-1.jpeg"
+            style="width: 100%; height: 100%"
+          ></VImage>
+        </div>
+        <div class="column">
+          <VImage
+            path="hoisters/drum/case-2.jpg"
+            style="width: 100%; height: 100%"
+          ></VImage>
+        </div>
       </div>
     </div>
   </div>

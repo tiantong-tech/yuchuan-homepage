@@ -94,20 +94,27 @@
     <div style="height: 5rem"></div>
     <div class="container">
       <div class="columns">
-        <div class="column" style="width: 100%">
+        <div class="column">
           <VImage
             path="rgv/case-1.png"
+            style="width: 100%; height: 100%"
           ></VImage>
         </div>
         <div class="column">
-          <VImage path="rgv/case-2.png"></VImage>
+          <VImage
+            path="rgv/case-2.png"
+            style="width: 100%; height: 100%"
+          ></VImage>
         </div>
         <div class="column">
-          <VImage path="rgv/case-3.png"></VImage>
+          <VImage
+            path="rgv/case-3.png"
+            style="width: 100%; height: 100%"
+          ></VImage>
         </div>
       </div>
     </div>
-    <div style="height: 8rem"></div>
+    <div style="height: 6rem"></div>
   </div>
 </template>
 
