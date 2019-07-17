@@ -85,7 +85,7 @@
       <figure class="image">
         <VImage
           style="width: 512px; height: 392px"
-          path="home/liku-1.png"
+          path="home/liku-1.jpg"
         ></VImage>
       </figure>
     </Hero>
