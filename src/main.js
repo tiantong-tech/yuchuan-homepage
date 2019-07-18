@@ -5,7 +5,7 @@ import components from './boot/components'
 import axios from '@/providers/axios'
 
 axios.get('/api')
-  .then(response => console.log(response.data))
+  .then(response => console.log(response.data.message))
 
 Vue.config.productionTip = (
   process.env.NODE_ENV === 'production'
