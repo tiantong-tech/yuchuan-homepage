@@ -19,7 +19,7 @@
     </div>
     <div
       v-show="isMenuActive"
-      class="nav-menu is-hidden-desktop"
+      class="nav-menu is-hidden-desktop is-unselectable"
     >
       <div class="menu-shadow"></div>
       <NavMenu
