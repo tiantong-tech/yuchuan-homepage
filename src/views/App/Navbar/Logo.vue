@@ -1,15 +1,16 @@
 <template>
   <router-link
-    tag="p"
-    to="/"
-    class="app-logo level-item is-flex is-flex-column"
+    to="/" tag="div"
+    class="nav-logo"
   >
     <VImage
       path="common/logo.png"
       class="app-logo-image"
-      style="width: 96px; height: 48px"
+      style="width: 96px; height: 44px; margin-bottom: 2px"
     ></VImage>
-    <span>上海玉串自动化科技有限公司</span>
+    <span>
+      上海玉串自动化科技有限公司
+    </span>
   </router-link>
 </template>
 

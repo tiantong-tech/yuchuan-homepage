@@ -6,6 +6,7 @@ Router.prototype.isMatched = isMatched
 
 export default new Router({
   mode: process.env.NODE_ENV === 'development' ? 'hash' : 'history',
+  linkExactActiveClass: 'is-active',
   routes: [
     {
       path: '/',
