@@ -45,7 +45,8 @@ export default {
       ]
     },
     appHeroStyle () {
-      const style = {}
+      const style = {
+      }
 
       if (this.height) {
         style.height = this.height
@@ -53,9 +54,7 @@ export default {
       if (this.imageURL) {
         style['background-repeat'] = this.repeat
         style['background-image'] = this.imageURL
-        style['background-position'] = this.position
-        style['background-size'] = `100% ${this.height}`
-        style['background-attachment'] = this.attachment
+        style['background-size'] = 'cover'
       }
 
       return style
