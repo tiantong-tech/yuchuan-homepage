@@ -1,13 +1,10 @@
 <template>
-  <div>
+  <div id="rgv">
     <div
       class="container"
-      style="padding-top: 1rem"
+      style="padding-top: 2rem"
     >
-      <div
-        class="columns is-vcentered"
-        style="height: 480px; margin-bottom: 3rem"
-      >
+      <div class="columns is-vcentered">
         <div class="column">
           <h1
             class="is-size-3"
@@ -21,13 +18,14 @@
           </h2>
         </div>
         <div class="column">
-          <VImage
-            path="rgv/hero.jpg"
-          ></VImage>
+          <figure class="image">
+            <VImage path="rgv/hero.jpg"></VImage>
+          </figure>
         </div>
       </div>
     </div>
-    <div style="height: 5rem"></div>
+    <div class="is-hidden-touch" style="height: 5rem"></div>
+    <div class="is-hidden-desktop" style="height: 2rem"></div>
     <div class="container columns">
       <div class="column">
         <h1
@@ -91,7 +89,8 @@
         </h2>
       </div>
     </div>
-    <div style="height: 5rem"></div>
+    <div class="is-hidden-touch" style="height: 5rem"></div>
+    <div class="is-hidden-desktop" style="height: 1rem"></div>
     <div class="container">
       <div class="columns">
         <div class="column">
@@ -114,7 +113,8 @@
         </div>
       </div>
     </div>
-    <div style="height: 6rem"></div>
+    <div class="is-hidden-touch" style="height: 5rem"></div>
+    <div class="is-hidden-desktop" style="height: 2rem"></div>
   </div>
 </template>
 

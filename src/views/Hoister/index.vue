@@ -8,8 +8,8 @@
       >
         <a
           @click="currentTab = key"
-          class="button"
-          style="height: 60px"
+          class="button is-medium"
+          style="height: 64px"
           :class="key === currentTab && 'is-focused'"
         >
           <span>{{tab.text}}</span>

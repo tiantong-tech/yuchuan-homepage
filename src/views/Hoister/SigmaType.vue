@@ -1,94 +1,30 @@
 <template>
   <div style="padding: 0 0 3rem">
-    <div class="container">
-      <div class="columns">
-        <div
-          class="column is-flex is-flex-column"
-          style="width: 600px; margin-right: 3rem; justify-content: center"
-        >
-          <h1
-            class="is-size-3"
-            style="margin-bottom: 1rem"
-          >
-            {{title}}
-          </h1>
-          <p class="is-size-5">
-            {{subTitle}}
-          </p>
-          <div style="height: 96px"></div>
-          <div
-            v-for="(feagureGroup, groupKey) in features" :key="groupKey"
-            style="margin-bottom: 48px"
-            class="is-flex"
-          >
-            <div
-              class="hoister-subtitle"
-              style="margin-bottom: 16px"
-              v-for="(feature, featureKey) in feagureGroup"
-              :key="featureKey"
-            >
-              <div
-                class="has-background-info"
-                style="width: 64px; height: 4px; margin-bottom: 12px"
-              ></div>
-              <p class="is-size-5" style="margin-bottom: 12px">{{feature[0]}}</p>
-              <p class="is-size-6">{{feature[1]}}</p>
-            </div>
-          </div>
-        </div>
-        <figure class="column image is-narrow">
-          <VImage
-            path="hoisters/sigma/animation.gif"
-            style="width: 350px; height: 680px"
-          ></VImage>
-        </figure>
-      </div>
-    </div>
-        <div
-      class="container is-flex is-flex-column"
-      style="align-items: center"
-    >
-      <h2
-        class="is-size-3"
-        style="margin-bottom: 3rem"
-      >主要装置</h2>
-      <VImage path="hoisters/sigma/structure.jpg"></VImage>
-    </div>
-        <div
-      class="container is-flex is-flex-column"
-      style="align-items: center; padding-top: 2rem"
-    >
-      <h2
-        class="is-size-3"
-        style="margin-bottom: 2rem"
-      >
-        使用案例
-      </h2>
-      <div class="columns">
-        <div class="column">
-          <VImage
-            path="hoisters/sigma/case-1.jpg"
-            style="width: 100%; height: 100%"
-          ></VImage>
-        </div>
-        <div class="column">
-          <VImage
-            path="hoisters/sigma/case-2.jpg"
-            style="width: 100%; height: 100%"
-          ></VImage>
-        </div>
-      </div>
-    </div>
+    <Description
+      :title="title"
+      :sub-title="subTitle"
+      :image="image"
+      :features="features"
+    ></Description>
+    <Device image="hoisters/sigma/structure.jpg"></Device>
+    <Cases :images="[
+      'hoisters/sigma/case-1.jpg',
+      'hoisters/sigma/case-2.jpg'
+    ]"></Cases>
   </div>
 </template>
 
 <script>
-import VImage from '@/components/Image'
+import Cases from './Cases'
+import Device from './Device'
+import Description from './Description'
 
 export default {
   name: 'SigmaType',
   components: {
-    VImage
+    Cases,
+    Device,
+    Description
   },
   data: () => ({
     title: '随机专用托盘循环型垂直输送系统',
@@ -96,6 +32,7 @@ export default {
       本机力求节省搬入·搬出口空间，该系统的设计基于在狭窄仓库内，在难以保证充足作业空间时发挥重要作用，
       同时兼具『PL专用托盘循环型』的优点。
     `,
+    image: 'hoisters/sigma/animation.gif',
     features: [
       [
         ['节省空间型', '搬入、搬出口所需空间与标准型相比降低约40%。'],
