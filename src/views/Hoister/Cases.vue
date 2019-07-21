@@ -10,13 +10,14 @@
       使用案例
     </h2>
     <div class="columns is-centered">
+      <div class="column is-2 is-hidden-touch"></div>
       <div
         v-for="image in images" :key="image"
-        class="column is-narrow"
-        style="min-width: 480px; max-width: 480px;"
+        class="column"
       >
         <VImage :path="image" style="width: 100%; height: 100%"></VImage>
       </div>
+      <div class="column is-2 is-hidden-touch"></div>
     </div>
   </div>
 </template>
