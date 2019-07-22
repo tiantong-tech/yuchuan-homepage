@@ -33,7 +33,6 @@ export default {
   },
   methods: {
     handleClick () {
-      console.log(100)
       this.$emit('click-item')
     }
   }
