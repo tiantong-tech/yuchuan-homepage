@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="is-hidden-touch" style="height: 5rem"></div>
-    <div class="is-hidden-desktop" style="height: 2rem"></div>
+    <div class="is-hidden-desktop" style="height: 3rem"></div>
     <div class="container">
       <div class="columns">
         <div class="column">
@@ -91,7 +91,7 @@
       </div>
     </div>
     <div class="is-hidden-touch" style="height: 5rem"></div>
-    <div class="is-hidden-desktop" style="height: 1rem"></div>
+    <div class="is-hidden-desktop" style="height: 3rem"></div>
     <div class="container">
       <div class="columns">
         <div class="column">
