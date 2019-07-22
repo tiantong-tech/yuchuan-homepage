@@ -1,10 +1,9 @@
 <template>
   <div id="service">
     <section class="container">
-      <div
-        class="columns is-vcentered"
-        style="padding: 8rem 0 8rem;"
-      >
+      <div class="is-hidden-touch" style="height: 8rem"></div>
+      <div class="is-hidden-desktop" style="height: 2rem"></div>
+      <div class="columns is-vcentered">
         <div class="column">
           <h1 class="is-size-2">
             全天候全身心 极致售后服务
@@ -39,6 +38,8 @@
         </figure>
       </div>
     </section>
+    <div class="is-hidden-touch" style="height: 8rem"></div>
+    <div class="is-hidden-desktop" style="height: 2rem"></div>
     <section class="has-background-white-ter">
       <div
         class="container"
@@ -51,13 +52,11 @@
         </figure>
       </div>
     </section>
-    <section
-      class="container columns"
-      style="padding-top: 8rem; padding-bottom: 8rem"
-    >
+    <div class="is-hidden-touch" style="height: 8rem"></div>
+    <div class="is-hidden-desktop" style="height: 2rem"></div>
+    <section class="container columns">
       <div
-        class="column is-flex is-flex-column"
-        style="margin-right: 3rem; justify-content: center"
+        class="column is-flex is-flex-column is-centered"
       >
         <h1 class="is-size-2">
           解决方案
@@ -74,6 +73,7 @@
           信息共享、承载货物仓储、物流信息平台等多种应用，提升管理水平，降低企业运营成本，提高综合竞争力。
         </p>
       </div>
+      <div style="width: 3rem; height: 2rem"></div>
       <figure class="image column">
         <VImage
           path="service/solution.png"
@@ -81,6 +81,8 @@
         ></VImage>
       </figure>
     </section>
+    <div class="is-hidden-touch" style="height: 8rem"></div>
+    <div class="is-hidden-desktop" style="height: 2rem"></div>
   </div>
 </template>
 
