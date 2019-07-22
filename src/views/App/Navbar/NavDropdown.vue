@@ -39,7 +39,7 @@ export default {
   computed: {
     isNavMatched () {
       return this.menus.some(
-        menu => menu.route === this.$route.fullPath
+        menu => this.$route.fullPath.includes(menu.route)
       )
     }
   },
