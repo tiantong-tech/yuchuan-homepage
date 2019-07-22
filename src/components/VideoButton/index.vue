@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="video-button">
     <a
       class="button is-link"
       @click="isShow = true"
@@ -21,6 +21,7 @@
         <video
           id="yuchuan-introduce"
           class="video-js vjs-default-skin vjs-big-play-centered"
+          style="border-bottom: none"
           autoplay="muted"
           preload="auto"
           controls
