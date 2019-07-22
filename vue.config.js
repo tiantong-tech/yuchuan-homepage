@@ -15,6 +15,7 @@ module.exports = {
           '/prices/hoister',
           '/prices/hoister/created',
           '/products/hoisters',
+          '/products/rgv',
         ]
       })
     )
