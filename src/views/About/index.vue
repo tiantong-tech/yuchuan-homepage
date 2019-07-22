@@ -1,19 +1,16 @@
 <template>
   <div id="about">
     <section class="container">
-      <div
-        class="columns is-vcentered"
-        style="padding: 5rem 0 3rem;"
-      >
+      <div class="is-hidden-touch" style="height: 6rem"></div>
+      <div class="is-hidden-desktop" style="height: 0.75rem"></div>
+      <div class="columns is-vcentered">
         <figure class="image column">
           <VImage
             path="about/company.jpg"
             style="min-width: 360px; height: 392px"
           ></VImage>
         </figure>
-
         <div style="width: 32px"></div>
-
         <div class="column">
           <h1 class="is-size-3">
             公司介绍
@@ -28,6 +25,8 @@
         </div>
       </div>
     </section>
+    <div class="is-hidden-touch" style="height: 4rem"></div>
+    <div class="is-hidden-desktop" style="height: 0.75rem"></div>
     <!-- <div
       style="width: 100%; padding: 3rem 0 3rem"
     >
