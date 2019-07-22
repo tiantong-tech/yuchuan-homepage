@@ -6,7 +6,7 @@
           {{title}}
         </h1>
         <div style="height: 1rem"></div>
-        <p class="is-size-5">
+        <p>
           {{subTitle}}
         </p>
         <div style="height: 3rem"></div>

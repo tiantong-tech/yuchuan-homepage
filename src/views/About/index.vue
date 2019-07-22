@@ -4,19 +4,20 @@
       <div class="is-hidden-touch" style="height: 6rem"></div>
       <div class="is-hidden-desktop" style="height: 0.75rem"></div>
       <div class="columns is-vcentered">
+        <div class="is-hidden-touch" style="height: 450px"></div>
         <figure class="image column">
-          <VImage
-            path="about/company.jpg"
-            style="min-width: 360px; height: 392px"
-          ></VImage>
+          <VImage path="about/company.jpg"></VImage>
         </figure>
         <div style="width: 32px"></div>
         <div class="column">
-          <h1 class="is-size-3">
+          <h1 class="is-hidden-touch is-size-3">
+            公司介绍
+          </h1>
+          <h1 class="is-hidden-desktop is-size-3 has-text-centered">
             公司介绍
           </h1>
           <div style="height: 1rem"></div>
-          <h2 class="is-size-5">
+          <h2>
             上海玉串总部在上海，是由海外归国行业技术精英组建而成，是一家以自动化物流设备集成为依托，
             集物流装备研发、系统规划、设计、加工制造、安装调试、客户培训、售后服务于一体的一站式物流输送系统集成的企业。
             本公司致力于帮助客户全面提高生产资材供给、成品垂直/水平输送之自动化水平，
@@ -36,11 +37,11 @@
           style="margin-bottom: 1rem"
         >
         </h1>
-        <p class="is-size-5">
+        <p>
 
         </p>
         <div style="height: 1rem"></div>
-        <p class="is-size-5">
+        <p>
           我们以真诚、责任为合作前提，携手客户分析物流流程中的课题，
           与客户共同制定自动化物流系统解决方案，并用3D演示方式直观、
           科学的展示系统投入运行的实际效果，从而降低系统投入成本，规避投资风险。
@@ -79,35 +80,35 @@
       <div style="height: 2rem"></div>
       <h1
         class="is-size-3"
-        style="margin-bottom: 2rem"
+        style="margin-bottom: 1.5rem"
       >
         公司地址
       </h1>
       <h1 class="is-size-4">
         上海总部
       </h1>
-      <p class="is-size-5">电话：+86-21-6105 7311</p>
-      <p class="is-size-5">邮件：Wang@als-yuchuan.com</p>
-      <p class="is-size-5">网站：www.als-yuchuan.com</p>
-      <p class="is-size-5">地址：上海市奉贤区解放东路1018弄1619室</p>
+      <p>电话：+86-21-6105 7311</p>
+      <p>邮件：Wang@als-yuchuan.com</p>
+      <p>网站：www.als-yuchuan.com</p>
+      <p>地址：上海市奉贤区解放东路1018弄1619室</p>
     </div>
     <div class="company has-background-white-ter">
       <h1 class="is-size-4">
         珠海分公司
       </h1>
-      <p class="is-size-5">电话：+86-185 7826 8613</p>
-      <p class="is-size-5">邮件：michellezhang@als-yuchuan.com</p>
-      <p class="is-size-5">网站：www.als-yuchuan.com</p>
-      <p class="is-size-5">地址：广东省珠海市斗门区白藤七路德昌盛景</p>
+      <p>电话：+86-185 7826 8613</p>
+      <p>邮件：michellezhang@als-yuchuan.com</p>
+      <p>网站：www.als-yuchuan.com</p>
+      <p>地址：广东省珠海市斗门区白藤七路德昌盛景</p>
     </div>
     <div class="company has-background-white-ter">
       <h1 class="is-size-4">
         大连分公司
       </h1>
-      <p class="is-size-5">电话：+86-411-8870 8679</p>
-      <p class="is-size-5">邮件：michellezhang@als-yuchuan.com</p>
-      <p class="is-size-5">网站：www.als-yuchuan.com</p>
-      <p class="is-size-5">地址：辽宁省大连市经济开发区万达广场7号楼 2217室</p>
+      <p>电话：+86-411-8870 8679</p>
+      <p>邮件：michellezhang@als-yuchuan.com</p>
+      <p>网站：www.als-yuchuan.com</p>
+      <p>地址：辽宁省大连市经济开发区万达广场7号楼 2217室</p>
       <div style="height: 2rem"></div>
     </div>
   </div>
