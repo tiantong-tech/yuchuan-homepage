@@ -12,9 +12,11 @@
           智能物流是利用集成智能化技术，使物流系统能模仿人类的智能，
           具有思维、感知、学习、推理判断和自行解决物流中某些问题的能力
         </p>
-        <!-- <p style="margin-top: 1rem">
-          <VideoButton></VideoButton>
-        </p> -->
+        <p style="margin-top: 1rem">
+          <VideoButton>
+            <source src="http://img.als-yuchuan.com/videos/yuchuan-introduce" type="video/mp4" >
+          </VideoButton>
+        </p>
       </div>
     </Hero>
     <div class="has-background-white-ter">
@@ -124,14 +126,14 @@
 <script>
 import Hero from '@/components/Hero'
 import VImage from '@/components/Image'
-// import VideoButton from '@/components/VideoButton'
+import VideoButton from '@/components/VideoButton'
 
 export default {
   name: 'HomeIndex',
   components: {
     Hero,
     VImage,
-    // VideoButton
+    VideoButton
   },
   methods: {
     handleJump () {
