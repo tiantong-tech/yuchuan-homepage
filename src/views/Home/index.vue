@@ -14,7 +14,7 @@
         </p>
         <p style="margin-top: 1rem">
           <VideoButton>
-            <source src="http://img.als-yuchuan.com/videos/yuchuan-introduce" type="video/mp4" >
+            <source src="https://img.als-yuchuan.com/videos/yuchuan-introduce" type="video/mp4" >
           </VideoButton>
         </p>
       </div>

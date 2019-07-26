@@ -36,7 +36,7 @@ export default {
   computed: {
     imageURL () {
       return !this.image ? false
-        : `url("http://img.als-yuchuan.com/${this.image}")`
+        : `url("https://img.als-yuchuan.com/${this.image}")`
     },
     klass () {
       return [

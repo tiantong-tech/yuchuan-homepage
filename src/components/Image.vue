@@ -12,7 +12,7 @@ export default {
   },
   computed: {
     image () {
-      return `http://img.als-yuchuan.com/${this.path}`
+      return `https://img.als-yuchuan.com/${this.path}`
     }
   }
 }
