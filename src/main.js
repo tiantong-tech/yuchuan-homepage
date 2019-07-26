@@ -1,17 +1,19 @@
 import Vue from 'vue'
 import App from './views/App/index.vue'
-import router from './router'
+import router from '@/providers/router'
 import components from './boot/components'
 import axios from '@/providers/axios'
-
-axios.get('/api')
-  .then(response => console.log(response.data.message))
+import recorder from '@/providers/recorder'
 
 Vue.config.productionTip = (
   process.env.NODE_ENV === 'production'
 )
 
+Vue.use(recorder)
 Vue.use(components)
+
+axios.get('/api')
+  .then(response => console.log(response.data.message))
 
 new Vue({
   router,

@@ -2,6 +2,8 @@ import axios from 'axios'
 
 axios.defaults.baseURL = process.env.VUE_APP_API_URL_BASE
 
+const instance = axios.create()
+
 function beforeRequest (config) {
   return config
 }
@@ -16,13 +18,13 @@ function beforeError (error) {
   throw error
 }
 
-axios.interceptors.request.use(
+instance.interceptors.request.use(
   beforeRequest
 )
 
-axios.interceptors.response.use(
+instance.interceptors.response.use(
   beforeResponse,
   beforeError
 )
 
-export default axios
+export default instance
