@@ -2,6 +2,7 @@
   <div class="is-flex is-hidden-touch">
     <template v-for="(menu, key) in menus">
       <router-link
+        tag="div"
         v-if="!menu.children"
         :key="key"
         :to="menu.route"
