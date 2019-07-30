@@ -5,26 +5,6 @@ export default [
     component: () => import('./views/Home/index.vue')
   },
   {
-    path: '/products/hoisters',
-    name: 'hoister',
-    component: () => import('./views/Hoister/index.vue')
-  },
-  {
-    path: '/products/rgv',
-    name: 'rgv',
-    component: () => import('./views/Products/RGV/index.vue')
-  },
-  {
-    path: '/products',
-    name: 'products',
-    component: () => import('./views/Products/index.vue')
-  },
-  {
-    path: '/news',
-    name: 'news',
-    component: () => import('./views/News.vue')
-  },
-  {
     path: '/service',
     name: 'service',
     component: () => import('./views/Service.vue')
@@ -33,6 +13,16 @@ export default [
     path: '/about',
     name: 'about',
     component: () => import('./views/About/index.vue')
+  },
+  {
+    path: '/products/hoisters',
+    name: 'products hoister',
+    component: () => import('./views/products/Hoisters/index.vue')
+  },
+  {
+    path: '/products/rgv',
+    name: 'products rgv',
+    component: () => import('./views/products/RGV/index.vue')
   },
   {
     path: '/prices/hoister',
