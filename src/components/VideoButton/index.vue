@@ -9,10 +9,7 @@
         <i class="iconfont icon-video" style="font-size: 1rem"></i>
       </span>
     </a>
-    <div
-      class="modal"
-      :class="isShow && 'is-active'"
-    >
+    <div class="modal" v-active="isShow">
       <div
         @click="handleClose"
         class="modal-background"

@@ -10,7 +10,6 @@
       >
         <a
           class="nav-menu icon is-medium"
-          :class="isMenuActive && 'is-active'"
           @click="isMenuActive = !isMenuActive"
         >
           <i class="iconfont icon-menu"></i>

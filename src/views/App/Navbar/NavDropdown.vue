@@ -1,14 +1,14 @@
 <template>
   <div
+    v-active="isNavMatched"
     class="nav-item nav-dropdown"
-    :class="isNavMatched && 'is-active'"
     @mouseover="isHovered = true"
     @mouseout="isHovered = false"
   >
     <a>{{text}}</a>
     <div
+      v-active="isHovered"
       class="dropdown-menu"
-      :class="isHovered && 'is-active'"
     >
       <div
         class="dropdown-content"

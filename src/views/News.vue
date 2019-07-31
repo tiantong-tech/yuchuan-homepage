@@ -4,8 +4,8 @@
       <!-- <nav class="panel" style="width: 200px">
         <a
           v-for="(title, key) in titles" :key="key"
-          :class="!key && 'is-active'"
           class="panel-block"
+          v-active="!key"
         >
           {{title}}
         </a>
