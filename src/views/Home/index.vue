@@ -110,7 +110,7 @@
       style="justify-content: center; margin-top: 48px; margin-bottom: 12px"
     >
       <h2 class="is-size-3">
-        WMS & WCS软件系统
+        WMS & WCS 软件系统
       </h2>
     </div>
     <div
@@ -119,7 +119,30 @@
     >
       <VImage path="home/software-1.png"></VImage>
     </div>
-    <div style="height: 32px"></div>
+
+    <div
+      class="container"
+      style="padding-top: 3rem; padding-bottom: 3rem"
+    >
+      <h2 class="is-size-3 has-text-centered">
+        合作伙伴
+      </h2>
+      <div style="height: 3rem"></div>
+      <div
+        v-for="(items, key) in partners" :key="key"
+        class="columns is-centered"
+      >
+        <div
+          v-for="(item, key) in items" :key="key"
+          class="column is-flex is-centered"
+        >
+          <VImage
+            :path="`home/partners/${item}.png`"
+            style="width: 320px; height: 160px;"
+          ></VImage>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -135,6 +158,12 @@ export default {
     VImage,
     VideoButton
   },
+  data: () => ({
+    partners: [
+      ['招商局', '格力', '武汉万吨'],
+      ['中外运', '世纪联华', '鑫荣懋']
+    ]
+  }),
   methods: {
     handleJump () {
       window.scrollTo(0, 0)
