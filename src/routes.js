@@ -22,7 +22,7 @@ export default [
   {
     path: '/products/rgv',
     name: 'products rgv',
-    component: () => import('./views/products/RGV/index.vue')
+    component: () => import('./views/products/Rgv/index.vue')
   },
   {
     path: '/prices/hoister',

@@ -123,7 +123,7 @@
 import VImage from '@/components/Image'
 
 export default {
-  name: 'RGV',
+  name: 'Rgv',
   components: {
     VImage
   }
