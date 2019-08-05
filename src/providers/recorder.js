@@ -10,13 +10,6 @@ import Axios from 'axios'
 import storage from 'store'
 import router from './router'
 
-const axios = Axios.create()
-
-const state = {
-  key: '',
-  errors: 0
-}
-
 export default {
   install () {
     router.afterEach(async to => {
@@ -25,7 +18,28 @@ export default {
   }
 }
 
+const state = {
+  key: '',
+  errors: 0
+}
+
+const axios = Axios.create()
+
+axios.interceptors.request.use(config => {
+  config.headers.Authorization = state.key
+
+  return config
+})
+
+function isSpider () {
+  return ['Baiduspider', 'Googlebot'].some(str => {
+    navigator.userAgent.includes()
+  })
+}
+
 async function handle (resource) {
+  if (isSpider()) return
+
   await handleLoadDeviceKey()
   record(resource)
     .catch(() => {
