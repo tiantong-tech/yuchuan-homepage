@@ -19,6 +19,33 @@
         </p>
       </div>
     </Hero>
+
+    <div
+      class="container"
+      style="padding-top: 3rem; padding-bottom: 3rem"
+    >
+      <h2 class="is-size-3 has-text-centered">
+        合作伙伴
+      </h2>
+      <div style="height: 3rem"></div>
+      <div
+        v-for="(items, key) in partners" :key="key"
+        class="columns is-centered"
+      >
+        <div
+          v-for="(item, key) in items" :key="key"
+          class="column is-flex is-centered"
+        >
+          <VImage
+            :path="`home/partners/${item}.png`"
+            style="width: 320px; height: 160px;"
+          ></VImage>
+        </div>
+      </div>
+    </div>
+
+    <div class="is-hidden-mobile" style="height: 4rem"></div>
+
     <div class="has-background-white-ter">
       <div
         class="container"
@@ -118,30 +145,6 @@
       style="justify-content: center; align-items: center"
     >
       <VImage path="home/software-1.png"></VImage>
-    </div>
-
-    <div
-      class="container"
-      style="padding-top: 3rem; padding-bottom: 3rem"
-    >
-      <h2 class="is-size-3 has-text-centered">
-        合作伙伴
-      </h2>
-      <div style="height: 3rem"></div>
-      <div
-        v-for="(items, key) in partners" :key="key"
-        class="columns is-centered"
-      >
-        <div
-          v-for="(item, key) in items" :key="key"
-          class="column is-flex is-centered"
-        >
-          <VImage
-            :path="`home/partners/${item}.png`"
-            style="width: 320px; height: 160px;"
-          ></VImage>
-        </div>
-      </div>
     </div>
   </div>
 </template>
