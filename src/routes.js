@@ -30,6 +30,11 @@ export default [
     component: () => import('./views/Products/Agv/index.vue')
   },
   {
+    path: '/products/asrs',
+    name: 'products asrs',
+    component: () => import('./views/products/Asrs/index.vue')
+  },
+  {
     path: '/prices/hoister',
     name: 'hoister price',
     component: () => import('./views/prices/Hoister/index.vue'),

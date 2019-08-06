@@ -17,6 +17,7 @@ module.exports = {
           '/products/hoisters',
           '/products/rgv',
           '/products/agv',
+          '/products/asrs',
         ]
       })
     )
