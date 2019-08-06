@@ -48,7 +48,8 @@ export default {
       {
         text: '产品介绍', children: [
           { text: '垂直物流输送系统', route: '/products/hoisters' },
-          { text: '有轨穿梭车', route: '/products/rgv' },
+          { text: 'RGV 有轨穿梭车', route: '/products/rgv' },
+          { text: 'AGV 无人搬运车', route: '/products/agv' },
         ]
       },
       { text: '客户服务', route: '/service' },

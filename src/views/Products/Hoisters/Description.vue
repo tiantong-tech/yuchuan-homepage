@@ -20,10 +20,7 @@
             class="column" :key="featureKey"
             style="margin-bottom: 1rem"
           >
-            <div
-              class="has-background-info is-hidden-touch"
-              style="width: 4rem; height: 4px; margin-bottom: 12px; border-radius: 1rem"
-            ></div>
+            <div class="feature-top is-hidden-touch"></div>
             <p class="is-size-5 feature-title">
               {{feature[0]}}
             </p>
