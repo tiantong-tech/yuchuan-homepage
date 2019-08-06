@@ -86,6 +86,35 @@
         <div class="columns is-vcentered">
           <div class="column">
             <h2 class="is-size-3" style="margin-bottom: 1rem">
+              自动化立体仓库系统
+            </h2>
+            <p>
+              自动化立体仓库是采用高层货架配以料箱或托盘储存货物，
+              用巷道堆垛起重机及其他输送设备在信息WMS以及设备控制WCS的支配下进行联动作业，
+              以实现仓储物流合理化，存取自动化，操作简便化的自动化物流仓储系统。
+            </p>
+            <div @click="handleJump" style="margin-top: 1rem; width: 100px">
+              <router-link to="/products/asrs">
+                了解更多 >
+              </router-link>
+            </div>
+          </div>
+          <div style="width: 2rem; height: 1rem"></div>
+          <div class="column">
+            <VImage path="home/liku-1.jpg"></VImage>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="has-background-white-ter">
+      <div
+        class="container"
+        style="padding-top: 5rem; padding-bottom: 5rem"
+      >
+        <div class="columns is-vcentered">
+          <div class="column">
+            <h2 class="is-size-3" style="margin-bottom: 1rem">
               物流设备
             </h2>
             <p>
@@ -103,35 +132,6 @@
             <figure class="image">
               <VImage path="home/device-1.png"></VImage>
             </figure>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="has-background-white-ter">
-      <div
-        class="container"
-        style="padding-top: 5rem; padding-bottom: 5rem"
-      >
-        <div class="columns is-vcentered">
-          <div class="column">
-            <h2 class="is-size-3" style="margin-bottom: 1rem">
-              自动化立体仓库系统
-            </h2>
-            <p>
-              自动化立体仓库是采用高层货架配以料箱或托盘储存货物，
-              用巷道堆垛起重机及其他输送设备在信息WMS以及设备控制WCS的支配下进行联动作业，
-              以实现仓储物流合理化，存取自动化，操作简便化的自动化物流仓储系统。
-            </p>
-            <div @click="handleJump" style="margin-top: 1rem; width: 100px">
-              <router-link to="/products/asrs">
-                了解更多 >
-              </router-link>
-            </div>
-          </div>
-          <div style="width: 2rem; height: 1rem"></div>
-          <div class="column">
-            <VImage path="home/liku-1.jpg"></VImage>
           </div>
         </div>
       </div>
