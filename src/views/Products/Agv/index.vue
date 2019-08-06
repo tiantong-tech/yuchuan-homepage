@@ -17,7 +17,10 @@
           </h2>
         </div>
         <div style="width: 2rem"></div>
-        <div class="column is-narrow">
+        <div
+          id="agv-hero"
+          class="column is-narrow"
+        >
           <figure class="image">
             <VImage path="agv/hero.png"></VImage>
           </figure>
