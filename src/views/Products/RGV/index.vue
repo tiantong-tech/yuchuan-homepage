@@ -15,12 +15,11 @@
             并可与上位机或WMS系统进行通讯，结合RFID、条码等识别技术，实现自动化识别、存取等功能。
           </h2>
         </div>
-        <div class="column">
-          <figure class="image">
-            <VImage
-              style="max-width: 760px"
-              path="rgv/hero.jpg"></VImage>
-          </figure>
+        <div
+          id="rgv-hero"
+          class="column is-narrow"
+        >
+          <VImage path="rgv/hero.jpg"></VImage>
         </div>
       </div>
     </div>
