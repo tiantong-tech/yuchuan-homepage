@@ -123,6 +123,11 @@
               用巷道堆垛起重机及其他输送设备在信息WMS以及设备控制WCS的支配下进行联动作业，
               以实现仓储物流合理化，存取自动化，操作简便化的自动化物流仓储系统。
             </p>
+            <div @click="handleJump" style="margin-top: 1rem; width: 100px">
+              <router-link to="/products/asrs">
+                了解更多 >
+              </router-link>
+            </div>
           </div>
           <div style="width: 2rem; height: 1rem"></div>
           <div class="column">
@@ -146,6 +151,8 @@
     >
       <VImage path="home/software-1.png"></VImage>
     </div>
+
+    <div style="height: 3rem"></div>
   </div>
 </template>
 
