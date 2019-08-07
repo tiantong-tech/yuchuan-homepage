@@ -51,6 +51,7 @@ export default {
           { text: '自动化立体仓库', route: '/products/asrs' },
           { text: 'RGV 有轨穿梭车', route: '/products/rgv' },
           { text: 'AGV 无人搬运车', route: '/products/agv' },
+          { text: '码垛机器人', route: '/products/palletizing-robot' },
         ]
       },
       { text: '客户服务', route: '/service' },

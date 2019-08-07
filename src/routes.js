@@ -36,6 +36,11 @@ export default [
     component: () => import('./views/products/Asrs/index.vue')
   },
   {
+    path: '/products/palletizing-robot',
+    name: 'products ',
+    component: () => import('./views/products/PalletizingRobot/index.vue')
+  },
+  {
     path: '/prices/hoister',
     name: 'hoister price',
     component: () => import('./views/prices/Hoister/index.vue'),
