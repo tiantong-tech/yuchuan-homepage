@@ -54,7 +54,7 @@ async function handle (resource) {
 async function record (resource = '/no_resource', type = 'page') {
   axios.defaults.headers['Authorization'] = state.key
 
-  axios.post('/yuchuan/access/record', { resource , type })
+  axios.post('/yuchuan/access/record', { resource, type })
     .catch(() => {
       if (state.errors >= 1) return
       state.errors++
