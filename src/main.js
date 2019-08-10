@@ -5,6 +5,7 @@ import components from './boot/components'
 import axios from '@/providers/axios'
 import recorder from '@/providers/recorder'
 import active from '@/directives/active'
+import style from '@/directives/style'
 
 Vue.config.productionTip = (
   process.env.NODE_ENV === 'production'
@@ -12,6 +13,7 @@ Vue.config.productionTip = (
 
 Vue.use(recorder)
 Vue.use(components)
+Vue.directive('style', style)
 Vue.directive('active', active)
 
 axios.get('/api')
