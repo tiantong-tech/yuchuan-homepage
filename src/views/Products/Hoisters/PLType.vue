@@ -1,5 +1,5 @@
 <template>
-  <div style="padding: 0 0 3rem">
+  <div>
     <Description
       :title="title"
       :sub-title="subTitle"
