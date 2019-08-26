@@ -1,6 +1,10 @@
 <template>
-  <div class="app-nav-container">
-    <div class="container is-flex is-vcentered">
+  <div class="app-nav">
+    <div class="background"></div>
+    <div
+      v-class:box-shadow="isMenuActive"
+      class="container is-flex is-vcentered"
+    >
       <Logo></Logo>
       <div class="is-flex-auto"></div>
       <NavItems :menus="menus"></NavItems>
@@ -9,7 +13,7 @@
         style="margin-top: 0.5rem"
       >
         <a
-          class="nav-menu icon is-medium"
+          class="icon is-medium"
           @click="isMenuActive = !isMenuActive"
         >
           <i class="iconfont icon-menu"></i>
@@ -20,7 +24,7 @@
       v-show="isMenuActive"
       class="nav-menu is-hidden-desktop is-unselectable"
     >
-      <div class="menu-shadow"></div>
+      <div v-show="isMenuActive" class="menu-shadow"></div>
       <NavMenu
         :menus="menus"
         @click-item="isMenuActive = false"
