@@ -99,7 +99,7 @@
       <p>电话：+86-185 7826 8613</p>
       <p>邮件：michellezhang@als-yuchuan.com</p>
       <p>网站：www.als-yuchuan.com</p>
-      <p>地址：广东省珠海市斗门区白藤七路德昌盛景</p>
+      <p>地址：珠海市金湾区红旗镇藤山一路68号华兴豪庭2-2-703</p>
     </div>
     <div class="company has-background-white-ter">
       <h1 class="is-size-4">

@@ -17,17 +17,17 @@ export default [
   {
     path: '/products/hoisters',
     name: 'products hoister',
-    component: () => import('./views/products/Hoisters/index.vue')
+    component: () => import('./views/Products/Hoisters/index.vue')
   },
   {
     path: '/products/rgv',
     name: 'products rgv',
-    component: () => import('./views/products/Rgv/index.vue')
+    component: () => import('./views/Products/RGV/index.vue')
   },
   {
     path: '/products/agv',
     name: 'products agv',
-    component: () => import('./views/products/Agv/index.vue')
+    component: () => import('./views/Products/Agv/index.vue')
   },
   {
     path: '/prices/hoister',

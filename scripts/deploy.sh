@@ -10,6 +10,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@git.dev.tencent.com:zhanglan12/zhanglan12.coding.me.git master
+git push -f git@e.coding.net:ilog/yuchuan.git master
 
 cd -
