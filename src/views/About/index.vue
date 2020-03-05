@@ -90,7 +90,7 @@
       <p>电话：+86-21-6105 7311</p>
       <p>邮件：Wang@als-yuchuan.com</p>
       <p>网站：www.als-yuchuan.com</p>
-      <p>地址：上海市奉贤区解放东路1018弄1619室</p>
+      <p>地址：上海市奉贤区解放东路1018弄1号楼1008室</p>
     </div>
     <div class="company has-background-white-ter">
       <h1 class="is-size-4">
