@@ -23,7 +23,7 @@ export default [
   {
     path: '/goods',
     name: 'products',
-    component: () => import('./views/products/index.vue')
+    component: () => import('./views/Products/index.vue')
   },
   {
     path: '/products/rgv',
@@ -38,12 +38,12 @@ export default [
   {
     path: '/products/asrs',
     name: 'products asrs',
-    component: () => import('./views/products/Asrs/index.vue')
+    component: () => import('./views/Products/Asrs/index.vue')
   },
   {
     path: '/products/palletizing-robot',
     name: 'products ',
-    component: () => import('./views/products/PalletizingRobot/index.vue')
+    component: () => import('./views/Products/PalletizingRobot/index.vue')
   },
   {
     path: '/prices/hoister',

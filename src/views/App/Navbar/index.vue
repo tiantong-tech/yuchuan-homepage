@@ -58,7 +58,7 @@ export default {
           { text: '码垛机器人', route: '/products/palletizing-robot' },
         ]
       },
-      { text: '产品中心', route: '/goods' },
+      // { text: '产品中心', route: '/goods' },
       { text: '客户服务', route: '/service' },
       { text: '公司介绍', route: '/about' },
       { text: '联系我们', route: '/prices/hoister' }
