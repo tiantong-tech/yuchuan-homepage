@@ -87,8 +87,8 @@
       <h1 class="is-size-4">
         上海总部
       </h1>
-      <p>电话：+86-21-6105 7311</p>
-      <p>邮件：Wang@als-yuchuan.com</p>
+      <p>电话：13514118179 - 王先生</p>
+      <p>邮箱：ang@als-yuchuan.com</p>
       <p>网站：www.als-yuchuan.com</p>
       <p>地址：上海市奉贤区解放东路1018弄1号楼1008室</p>
     </div>
@@ -96,8 +96,8 @@
       <h1 class="is-size-4">
         珠海分公司
       </h1>
-      <p>电话：+86-185 7826 8613</p>
-      <p>邮件：michellezhang@als-yuchuan.com</p>
+      <p>电话：18578268613 - 张女士</p>
+      <p>邮箱：michellezhang@als-yuchuan.com</p>
       <p>网站：www.als-yuchuan.com</p>
       <p>地址：珠海市金湾区红旗镇藤山一路68号华兴豪庭2-2-703</p>
     </div>
@@ -105,8 +105,8 @@
       <h1 class="is-size-4">
         大连分公司
       </h1>
-      <p>电话：+86-411-8870 8679</p>
-      <p>邮件：michellezhang@als-yuchuan.com</p>
+      <p>电话：15021309685 - 贾先生</p>
+      <p>邮箱：ajia-no1@als-yuchuan.com</p>
       <p>网站：www.als-yuchuan.com</p>
       <p>地址：辽宁省大连市经济开发区万达广场7号楼 2217室</p>
       <div style="height: 2rem"></div>
