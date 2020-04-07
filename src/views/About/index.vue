@@ -76,6 +76,9 @@
         </div>
       </div>
     </div>
+
+    <Timeline v-if="false"></Timeline>
+
     <div class="company has-background-white-ter">
       <div style="height: 2rem"></div>
       <h1
@@ -117,12 +120,14 @@
 <script>
 // import Hero from '@/components/Hero'
 import VImage from '@/components/Image'
+import Timeline from './Timeline'
 
 export default {
   name: 'About',
   components: {
     // Hero,
-    VImage
+    VImage,
+    Timeline,
   },
   data: () => ({
     briefs: [
