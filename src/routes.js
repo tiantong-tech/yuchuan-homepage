@@ -2,7 +2,7 @@ export default [
   {
     path: '/',
     name: 'home',
-    alias: '/index.html',
+    alias: '*',
     component: () => import('./views/Home/index.vue')
   },
   {

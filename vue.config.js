@@ -19,6 +19,7 @@ module.exports = {
           '/products/agv',
           '/products/asrs',
           '/products/palletizing-robot',
+          '/404',
         ]
       })
     )
